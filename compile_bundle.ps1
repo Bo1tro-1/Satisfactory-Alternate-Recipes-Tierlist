@@ -73,17 +73,28 @@ Write-Host "Updating modular recipes-data.js..."
 $recipesJsonRaw = $recipes | ConvertTo-Json -Depth 5
 "const RECIPES_DATA = $recipesJsonRaw;" | Out-File -FilePath $recipesDataJsPath -Encoding utf8
 
-# Replace CSS link with styled content
+# Replace CSS link with styled content (regex handles any existing ?v= cache-busting param)
 $styleTag = "<style>`n$css`n</style>"
-$html = $html.Replace('<link rel="stylesheet" href="style.css">', $styleTag)
+$html = [regex]::Replace($html, '(?i)<link\s+rel="stylesheet"\s+href="style\.css(?:\?v=[^"]+)?"\s*>', $styleTag)
 
 # Replace scripts
 $dataTag = "<script>`nconst RECIPES_DATA = $recipesJsonRaw;`n</script>"
-$html = $html.Replace('<script src="recipes-data.js"></script>', $dataTag)
+$html = [regex]::Replace($html, '(?i)<script\s+src="recipes-data\.js(?:\?v=[^"]+)?"\s*></script>', $dataTag)
 
 $appTag = "<script>`n$jsApp`n</script>"
-$html = $html.Replace('<script src="app.js"></script>', $appTag)
+$html = [regex]::Replace($html, '(?i)<script\s+src="app\.js(?:\?v=[^"]+)?"\s*></script>', $appTag)
 
-# Write to file
+# Write bundle to file
 $html | Out-File -FilePath $bundleOutputPath -Encoding utf8
 Write-Host "Successfully compiled standalone bundle to: $bundleOutputPath"
+
+# Auto-update index.html with a new timestamp version query parameter to prevent browser caching for modular files
+Write-Host "Updating index.html with new cache-busting version query string..."
+$cacheBuster = Get-Date -Format "yyyyMMddHHmmss"
+$indexHtmlContent = Get-Content -Path $indexHtmlPath -Raw
+$indexHtmlContent = [regex]::Replace($indexHtmlContent, '(?i)href="style\.css(?:\?v=[^"]+)?"', "href=`"style.css?v=$cacheBuster`"")
+$indexHtmlContent = [regex]::Replace($indexHtmlContent, '(?i)src="recipes-data\.js(?:\?v=[^"]+)?"', "src=`"recipes-data.js?v=$cacheBuster`"")
+$indexHtmlContent = [regex]::Replace($indexHtmlContent, '(?i)src="app\.js(?:\?v=[^"]+)?"', "src=`"app.js?v=$cacheBuster`"")
+$indexHtmlContent | Out-File -FilePath $indexHtmlPath -Encoding utf8
+Write-Host "Updated index.html references with version: $cacheBuster"
+
