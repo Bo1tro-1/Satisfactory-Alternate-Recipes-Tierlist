@@ -36,7 +36,11 @@
                                 "rate":  "20.625 / min"
                             }
                         ],
-        "score":  97.7
+        "score":  97.7,
+        "diffPower":  -1.83,
+        "diffItems":  -6.53,
+        "diffBuildings":  -7.65,
+        "diffResources":  -2.77
     },
     {
         "csvName":  "Alternate: Copper Alloy Ingot",
@@ -65,7 +69,11 @@
                                 "rate":  "50 / min"
                             }
                         ],
-        "score":  92.3
+        "score":  92.3,
+        "diffPower":  0.55,
+        "diffItems":  0.07,
+        "diffBuildings":  -23.37,
+        "diffResources":  0.1
     },
     {
         "csvName":  "Alternate: Pure Aluminum Ingot",
@@ -89,7 +97,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  92
+        "score":  92,
+        "diffPower":  -0.66,
+        "diffItems":  -1.67,
+        "diffBuildings":  -2.16,
+        "diffResources":  -2.16
     },
     {
         "csvName":  "Alternate: Oil-Based Diamonds",
@@ -113,7 +125,11 @@
                                 "rate":  "200 / min"
                             }
                         ],
-        "score":  87.6
+        "score":  87.6,
+        "diffPower":  -2.54,
+        "diffItems":  -4.89,
+        "diffBuildings":  -0.82,
+        "diffResources":  -10.88
     },
     {
         "csvName":  "Alternate: Dark Matter Trap",
@@ -142,7 +158,11 @@
                                 "rate":  "150 / min"
                             }
                         ],
-        "score":  87.3
+        "score":  87.3,
+        "diffPower":  -0.52,
+        "diffItems":  -1.53,
+        "diffBuildings":  0.05,
+        "diffResources":  -2.26
     },
     {
         "csvName":  "Alternate: Heavy Flexible Frame",
@@ -181,7 +201,11 @@
                                 "rate":  "390 / min"
                             }
                         ],
-        "score":  86.7
+        "score":  86.7,
+        "diffPower":  -1.02,
+        "diffItems":  -3.62,
+        "diffBuildings":  -3.84,
+        "diffResources":  -2.19
     },
     {
         "csvName":  "Alternate: Sloppy Alumina",
@@ -210,7 +234,11 @@
                                 "rate":  "200 / min"
                             }
                         ],
-        "score":  86.1
+        "score":  86.1,
+        "diffPower":  -0.9,
+        "diffItems":  -2.46,
+        "diffBuildings":  1.2,
+        "diffResources":  -4.81
     },
     {
         "csvName":  "Alternate: Insulated Crystal Oscillator",
@@ -244,7 +272,11 @@
                                 "rate":  "1.875 / min"
                             }
                         ],
-        "score":  83
+        "score":  83,
+        "diffPower":  -1.34,
+        "diffItems":  -1.62,
+        "diffBuildings":  -3.05,
+        "diffResources":  -1.38
     },
     {
         "csvName":  "Alternate: Silicon Circuit Board",
@@ -273,7 +305,11 @@
                                 "rate":  "27.5 / min"
                             }
                         ],
-        "score":  80.4
+        "score":  80.4,
+        "diffPower":  -1.92,
+        "diffItems":  -0.71,
+        "diffBuildings":  -3.19,
+        "diffResources":  -0.66
     },
     {
         "csvName":  "Alternate: Crystal Computer",
@@ -302,7 +338,11 @@
                                 "rate":  "1.66667 / min"
                             }
                         ],
-        "score":  79.1
+        "score":  79.1,
+        "diffPower":  -1.23,
+        "diffItems":  -2.01,
+        "diffBuildings":  -2.15,
+        "diffResources":  -1.42
     },
     {
         "csvName":  "Alternate: Heat-Fused Frame",
@@ -341,7 +381,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  78.8
+        "score":  78.8,
+        "diffPower":  -0.35,
+        "diffItems":  -2.77,
+        "diffBuildings":  -2.57,
+        "diffResources":  -1
     },
     {
         "csvName":  "Alternate: Uranium Fuel Unit",
@@ -380,7 +424,11 @@
                                 "rate":  "2 / min"
                             }
                         ],
-        "score":  78.3
+        "score":  78.3,
+        "diffPower":  -1.64,
+        "diffItems":  -1.63,
+        "diffBuildings":  -1.55,
+        "diffResources":  -1.94
     },
     {
         "csvName":  "Alternate: Caterium Circuit Board",
@@ -409,7 +457,11 @@
                                 "rate":  "37.5 / min"
                             }
                         ],
-        "score":  77.2
+        "score":  77.2,
+        "diffPower":  -1.96,
+        "diffItems":  -0.69,
+        "diffBuildings":  -2.72,
+        "diffResources":  -1.78
     },
     {
         "csvName":  "Alternate: Super-State Computer",
@@ -448,7 +500,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  73.3
+        "score":  73.3,
+        "diffPower":  -0.83,
+        "diffItems":  -0.97,
+        "diffBuildings":  -2.77,
+        "diffResources":  -0.4
     },
     {
         "csvName":  "Alternate: Turbo Diamonds",
@@ -477,7 +533,11 @@
                                 "rate":  "40 / min"
                             }
                         ],
-        "score":  72
+        "score":  72,
+        "diffPower":  -3.09,
+        "diffItems":  -1.73,
+        "diffBuildings":  0.71,
+        "diffResources":  -6
     },
     {
         "csvName":  "Alternate: Caterium Computer",
@@ -511,7 +571,11 @@
                                 "rate":  "22.5 / min"
                             }
                         ],
-        "score":  71.3
+        "score":  71.3,
+        "diffPower":  -1.01,
+        "diffItems":  -1.16,
+        "diffBuildings":  -1.25,
+        "diffResources":  -0.85
     },
     {
         "csvName":  "Alternate: Electrode Aluminum Scrap",
@@ -545,7 +609,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  71
+        "score":  71,
+        "diffPower":  0.23,
+        "diffItems":  -1.27,
+        "diffBuildings":  1.23,
+        "diffResources":  -5.41
     },
     {
         "csvName":  "Alternate: Diluted Fuel",
@@ -574,7 +642,11 @@
                                 "rate":  "100 / min"
                             }
                         ],
-        "score":  69.6
+        "score":  69.6,
+        "diffPower":  -0.96,
+        "diffItems":  0.17,
+        "diffBuildings":  -1.67,
+        "diffResources":  1.32
     },
     {
         "csvName":  "Alternate: Turbo Pressure Motor",
@@ -613,7 +685,11 @@
                                 "rate":  "15 / min"
                             }
                         ],
-        "score":  67.9
+        "score":  67.9,
+        "diffPower":  -0.58,
+        "diffItems":  -0.74,
+        "diffBuildings":  -0.94,
+        "diffResources":  -0.61
     },
     {
         "csvName":  "Alternate: Rubber Concrete",
@@ -642,7 +718,11 @@
                                 "rate":  "20 / min"
                             }
                         ],
-        "score":  67.4
+        "score":  67.4,
+        "diffPower":  -0.27,
+        "diffItems":  -1.56,
+        "diffBuildings":  -3.8,
+        "diffResources":  -4.03
     },
     {
         "csvName":  "Alternate: Plastic AI Limiter",
@@ -671,7 +751,11 @@
                                 "rate":  "28 / min"
                             }
                         ],
-        "score":  66.7
+        "score":  66.7,
+        "diffPower":  -0.42,
+        "diffItems":  -1.02,
+        "diffBuildings":  -1.57,
+        "diffResources":  -1.2
     },
     {
         "csvName":  "Alternate: Steel Screw",
@@ -695,7 +779,11 @@
                                 "rate":  "5 / min"
                             }
                         ],
-        "score":  65.5
+        "score":  65.5,
+        "diffPower":  -0.42,
+        "diffItems":  -0.51,
+        "diffBuildings":  -5.15,
+        "diffResources":  -0.14
     },
     {
         "csvName":  "Alternate: Rigor Motor",
@@ -729,7 +817,11 @@
                                 "rate":  "1.25 / min"
                             }
                         ],
-        "score":  64.4
+        "score":  64.4,
+        "diffPower":  -0.02,
+        "diffItems":  -1.17,
+        "diffBuildings":  -1.12,
+        "diffResources":  -0.68
     },
     {
         "csvName":  "Alternate: Steel Rod",
@@ -753,7 +845,11 @@
                                 "rate":  "12 / min"
                             }
                         ],
-        "score":  64.2
+        "score":  64.2,
+        "diffPower":  -0.3,
+        "diffItems":  -0.71,
+        "diffBuildings":  -3.05,
+        "diffResources":  -0.83
     },
     {
         "csvName":  "Alternate: Fine Concrete",
@@ -782,7 +878,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  63.5
+        "score":  63.5,
+        "diffPower":  -0.25,
+        "diffItems":  -1.32,
+        "diffBuildings":  -2.92,
+        "diffResources":  -3.79
     },
     {
         "csvName":  "Alternate: Steeled Frame",
@@ -811,7 +911,11 @@
                                 "rate":  "10 / min"
                             }
                         ],
-        "score":  63.1
+        "score":  63.1,
+        "diffPower":  -0.42,
+        "diffItems":  -0.02,
+        "diffBuildings":  -1.85,
+        "diffResources":  0.17
     },
     {
         "csvName":  "Alternate: Aluminum Beam",
@@ -835,7 +939,11 @@
                                 "rate":  "22.5 / min"
                             }
                         ],
-        "score":  62.6
+        "score":  62.6,
+        "diffPower":  -0.64,
+        "diffItems":  -1.11,
+        "diffBuildings":  -2.3,
+        "diffResources":  -0.66
     },
     {
         "csvName":  "Alternate: Aluminum Rod",
@@ -859,7 +967,11 @@
                                 "rate":  "7.5 / min"
                             }
                         ],
-        "score":  61
+        "score":  61,
+        "diffPower":  -0.33,
+        "diffItems":  -0.54,
+        "diffBuildings":  -3.06,
+        "diffResources":  -0.71
     },
     {
         "csvName":  "Alternate: Turbo Electric Motor",
@@ -898,7 +1010,11 @@
                                 "rate":  "6.5625 / min"
                             }
                         ],
-        "score":  60.8
+        "score":  60.8,
+        "diffPower":  -0.33,
+        "diffItems":  -0.19,
+        "diffBuildings":  -0.32,
+        "diffResources":  -0.39
     },
     {
         "csvName":  "Alternate: Electric Motor",
@@ -927,7 +1043,11 @@
                                 "rate":  "7.5 / min"
                             }
                         ],
-        "score":  60
+        "score":  60,
+        "diffPower":  -0.07,
+        "diffItems":  -0.68,
+        "diffBuildings":  -0.5,
+        "diffResources":  -0.53
     },
     {
         "csvName":  "Alternate: Wet Concrete",
@@ -956,7 +1076,11 @@
                                 "rate":  "100 / min"
                             }
                         ],
-        "score":  59.2
+        "score":  59.2,
+        "diffPower":  0.08,
+        "diffItems":  -0.23,
+        "diffBuildings":  -4,
+        "diffResources":  -0.56
     },
     {
         "csvName":  "Alternate: Automated Speed Wiring",
@@ -990,7 +1114,11 @@
                                 "rate":  "1.875 / min"
                             }
                         ],
-        "score":  59.2
+        "score":  59.2,
+        "diffPower":  -0.06,
+        "diffItems":  -0.57,
+        "diffBuildings":  -1.01,
+        "diffResources":  -0.06
     },
     {
         "csvName":  "Alternate: Coke Steel Ingot",
@@ -1019,7 +1147,11 @@
                                 "rate":  "75 / min"
                             }
                         ],
-        "score":  59
+        "score":  59,
+        "diffPower":  -0.08,
+        "diffItems":  -0.07,
+        "diffBuildings":  -0.15,
+        "diffResources":  -2.94
     },
     {
         "csvName":  "Alternate: Infused Uranium Cell",
@@ -1058,7 +1190,11 @@
                                 "rate":  "75 / min"
                             }
                         ],
-        "score":  58.9
+        "score":  58.9,
+        "diffPower":  -0.03,
+        "diffItems":  0.51,
+        "diffBuildings":  1.31,
+        "diffResources":  -0.25
     },
     {
         "csvName":  "Alternate: Silicon High-Speed Connector",
@@ -1092,7 +1228,11 @@
                                 "rate":  "3 / min"
                             }
                         ],
-        "score":  57.1
+        "score":  57.1,
+        "diffPower":  -0.06,
+        "diffItems":  -0.59,
+        "diffBuildings":  -0.71,
+        "diffResources":  -0.15
     },
     {
         "csvName":  "Alternate: Radio Control System",
@@ -1131,7 +1271,11 @@
                                 "rate":  "45 / min"
                             }
                         ],
-        "score":  57.1
+        "score":  57.1,
+        "diffPower":  -0.95,
+        "diffItems":  0.75,
+        "diffBuildings":  -1.22,
+        "diffResources":  0.33
     },
     {
         "csvName":  "Alternate: Solid Steel Ingot",
@@ -1160,7 +1304,11 @@
                                 "rate":  "40 / min"
                             }
                         ],
-        "score":  56.4
+        "score":  56.4,
+        "diffPower":  -0.14,
+        "diffItems":  -0.27,
+        "diffBuildings":  0.27,
+        "diffResources":  -2.46
     },
     {
         "csvName":  "Alternate: Heat Exchanger",
@@ -1189,7 +1337,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  56.1
+        "score":  56.1,
+        "diffPower":  -0.19,
+        "diffItems":  -0.41,
+        "diffBuildings":  -0.57,
+        "diffResources":  -0.4
     },
     {
         "csvName":  "Alternate: Recycled Plastic",
@@ -1218,7 +1370,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  56
+        "score":  56,
+        "diffPower":  0.11,
+        "diffItems":  0.42,
+        "diffBuildings":  0.1,
+        "diffResources":  -0.03
     },
     {
         "csvName":  "Alternate: Coated Iron Plate",
@@ -1247,7 +1403,11 @@
                                 "rate":  "7.5 / min"
                             }
                         ],
-        "score":  55.8
+        "score":  55.8,
+        "diffPower":  -0.07,
+        "diffItems":  -0.48,
+        "diffBuildings":  -1.26,
+        "diffResources":  -0.49
     },
     {
         "csvName":  "Alternate: Adhered Iron Plate",
@@ -1276,7 +1436,11 @@
                                 "rate":  "3.75 / min"
                             }
                         ],
-        "score":  55.7
+        "score":  55.7,
+        "diffPower":  -0.01,
+        "diffItems":  -0.94,
+        "diffBuildings":  -0.2,
+        "diffResources":  -0.13
     },
     {
         "csvName":  "Alternate: Stitched Iron Plate",
@@ -1305,7 +1469,11 @@
                                 "rate":  "37.5 / min"
                             }
                         ],
-        "score":  53.7
+        "score":  53.7,
+        "diffPower":  -0.03,
+        "diffItems":  -0.51,
+        "diffBuildings":  -0.24,
+        "diffResources":  -0.04
     },
     {
         "csvName":  "Alternate: Insulated Cable",
@@ -1334,7 +1502,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  53.7
+        "score":  53.7,
+        "diffPower":  -0.04,
+        "diffItems":  -0.43,
+        "diffBuildings":  -0.74,
+        "diffResources":  -0.06
     },
     {
         "csvName":  "Alternate: Coated Cable",
@@ -1363,7 +1535,11 @@
                                 "rate":  "15 / min"
                             }
                         ],
-        "score":  53.3
+        "score":  53.3,
+        "diffPower":  0.04,
+        "diffItems":  -0.38,
+        "diffBuildings":  -0.62,
+        "diffResources":  -0.07
     },
     {
         "csvName":  "Alternate: Fused Wire",
@@ -1392,7 +1568,11 @@
                                 "rate":  "3 / min"
                             }
                         ],
-        "score":  53.2
+        "score":  53.2,
+        "diffPower":  -0.03,
+        "diffItems":  -0.34,
+        "diffBuildings":  -1.07,
+        "diffResources":  -0.42
     },
     {
         "csvName":  "Alternate: Plastic Smart Plating",
@@ -1426,7 +1606,11 @@
                                 "rate":  "7.5 / min"
                             }
                         ],
-        "score":  53.2
+        "score":  53.2,
+        "diffPower":  0,
+        "diffItems":  -0.17,
+        "diffBuildings":  -0.54,
+        "diffResources":  -0.05
     },
     {
         "csvName":  "Alternate: Copper Rotor",
@@ -1455,7 +1639,11 @@
                                 "rate":  "195 / min"
                             }
                         ],
-        "score":  53.2
+        "score":  53.2,
+        "diffPower":  -0.01,
+        "diffItems":  -0.27,
+        "diffBuildings":  -0.51,
+        "diffResources":  0.17
     },
     {
         "csvName":  "Alternate: Steel Cast Plate",
@@ -1484,7 +1672,11 @@
                                 "rate":  "15 / min"
                             }
                         ],
-        "score":  53.1
+        "score":  53.1,
+        "diffPower":  0,
+        "diffItems":  -0.33,
+        "diffBuildings":  -0.97,
+        "diffResources":  -0.4
     },
     {
         "csvName":  "Alternate: Nitro Rocket Fuel",
@@ -1528,7 +1720,11 @@
                                 "rate":  "50 / min"
                             }
                         ],
-        "score":  53
+        "score":  53,
+        "diffPower":  -1.39,
+        "diffItems":  0.03,
+        "diffBuildings":  -2.35,
+        "diffResources":  2.23
     },
     {
         "csvName":  "Alternate: Steamed Copper Sheet",
@@ -1557,7 +1753,11 @@
                                 "rate":  "22.5 / min"
                             }
                         ],
-        "score":  52.9
+        "score":  52.9,
+        "diffPower":  0.47,
+        "diffItems":  -0.43,
+        "diffBuildings":  -2.36,
+        "diffResources":  0.08
     },
     {
         "csvName":  "Alternate: OC Supercomputer",
@@ -1586,7 +1786,11 @@
                                 "rate":  "6 / min"
                             }
                         ],
-        "score":  52.8
+        "score":  52.8,
+        "diffPower":  -0.73,
+        "diffItems":  0.95,
+        "diffBuildings":  -1.76,
+        "diffResources":  0.64
     },
     {
         "csvName":  "Alternate: Steel Rotor",
@@ -1615,7 +1819,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  52.5
+        "score":  52.5,
+        "diffPower":  0.04,
+        "diffItems":  -0.51,
+        "diffBuildings":  -0.14,
+        "diffResources":  0.13
     },
     {
         "csvName":  "Alternate: Tempered Caterium Ingot",
@@ -1644,7 +1852,11 @@
                                 "rate":  "15 / min"
                             }
                         ],
-        "score":  52.2
+        "score":  52.2,
+        "diffPower":  -0.04,
+        "diffItems":  -0.87,
+        "diffBuildings":  1.39,
+        "diffResources":  -1.48
     },
     {
         "csvName":  "Alternate: Cooling Device",
@@ -1678,7 +1890,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  51.9
+        "score":  51.9,
+        "diffPower":  0.08,
+        "diffItems":  0.01,
+        "diffBuildings":  0.24,
+        "diffResources":  -0.23
     },
     {
         "csvName":  "Alternate: Pure Quartz Crystal",
@@ -1707,7 +1923,11 @@
                                 "rate":  "37.5 / min"
                             }
                         ],
-        "score":  51.9
+        "score":  51.9,
+        "diffPower":  0.36,
+        "diffItems":  0.27,
+        "diffBuildings":  -1.21,
+        "diffResources":  0.61
     },
     {
         "csvName":  "Alternate: Electromagnetic Connection Rod",
@@ -1736,7 +1956,11 @@
                                 "rate":  "4 / min"
                             }
                         ],
-        "score":  51.8
+        "score":  51.8,
+        "diffPower":  0.01,
+        "diffItems":  -0.21,
+        "diffBuildings":  -0.36,
+        "diffResources":  -0.01
     },
     {
         "csvName":  "Alternate: Quickwire Cable",
@@ -1765,7 +1989,11 @@
                                 "rate":  "5 / min"
                             }
                         ],
-        "score":  51.7
+        "score":  51.7,
+        "diffPower":  0.04,
+        "diffItems":  -0.5,
+        "diffBuildings":  -0.25,
+        "diffResources":  -0.08
     },
     {
         "csvName":  "Alternate: Caterium Wire",
@@ -1789,7 +2017,11 @@
                                 "rate":  "15 / min"
                             }
                         ],
-        "score":  51.7
+        "score":  51.7,
+        "diffPower":  -0.06,
+        "diffItems":  -0.28,
+        "diffBuildings":  -1.03,
+        "diffResources":  -0.33
     },
     {
         "csvName":  "Alternate: Quickwire Stator",
@@ -1818,7 +2050,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  51.6
+        "score":  51.6,
+        "diffPower":  -0.14,
+        "diffItems":  -0.21,
+        "diffBuildings":  -0.34,
+        "diffResources":  0.01
     },
     {
         "csvName":  "Alternate: Bolted Frame",
@@ -1847,7 +2083,11 @@
                                 "rate":  "140 / min"
                             }
                         ],
-        "score":  51.5
+        "score":  51.5,
+        "diffPower":  -0.39,
+        "diffItems":  1.39,
+        "diffBuildings":  -1.6,
+        "diffResources":  -0.12
     },
     {
         "csvName":  "Alternate: Bolted Iron Plate",
@@ -1876,7 +2116,11 @@
                                 "rate":  "250 / min"
                             }
                         ],
-        "score":  51.4
+        "score":  51.4,
+        "diffPower":  -0.11,
+        "diffItems":  0.25,
+        "diffBuildings":  -0.44,
+        "diffResources":  0
     },
     {
         "csvName":  "Alternate: Fine Black Powder",
@@ -1905,7 +2149,11 @@
                                 "rate":  "15 / min"
                             }
                         ],
-        "score":  51.1
+        "score":  51.1,
+        "diffPower":  -0.04,
+        "diffItems":  -0.03,
+        "diffBuildings":  -0.12,
+        "diffResources":  -0.03
     },
     {
         "csvName":  "Alternate: Heavy Oil Residue",
@@ -1934,7 +2182,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  50
+        "score":  50,
+        "diffPower":  0,
+        "diffItems":  0.01,
+        "diffBuildings":  0,
+        "diffResources":  -0.01
     },
     {
         "csvName":  "Alternate: Flexible Framework",
@@ -1968,7 +2220,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  50.8
+        "score":  50.8,
+        "diffPower":  0.04,
+        "diffItems":  -0.14,
+        "diffBuildings":  -0.15,
+        "diffResources":  -0.06
     },
     {
         "csvName":  "Alternate: Turbo Heavy Fuel",
@@ -1997,7 +2253,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  50.7
+        "score":  50.7,
+        "diffPower":  -0.31,
+        "diffItems":  -0.2,
+        "diffBuildings":  -0.44,
+        "diffResources":  -0.21
     },
     {
         "csvName":  "Alternate: Cast Screw",
@@ -2021,7 +2281,11 @@
                                 "rate":  "12.5 / min"
                             }
                         ],
-        "score":  50.7
+        "score":  50.7,
+        "diffPower":  -0.01,
+        "diffItems":  -0.05,
+        "diffBuildings":  -1.51,
+        "diffResources":  0.65
     },
     {
         "csvName":  "Alternate: Iron Alloy Ingot",
@@ -2050,7 +2314,11 @@
                                 "rate":  "10 / min"
                             }
                         ],
-        "score":  50.3
+        "score":  50.3,
+        "diffPower":  0.01,
+        "diffItems":  -0.06,
+        "diffBuildings":  -0.28,
+        "diffResources":  -0.14
     },
     {
         "csvName":  "Alternate: Polymer Resin",
@@ -2079,7 +2347,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  50
+        "score":  50,
+        "diffPower":  -0.02,
+        "diffItems":  -0.04,
+        "diffBuildings":  0.04,
+        "diffResources":  0.07
     },
     {
         "csvName":  "Alternate: Quartz Purification",
@@ -2113,7 +2385,11 @@
                                 "rate":  "10 / min"
                             }
                         ],
-        "score":  37.2
+        "score":  37.2,
+        "diffPower":  0.73,
+        "diffItems":  1.13,
+        "diffBuildings":  -2.74,
+        "diffResources":  1.04
     },
     {
         "csvName":  "Alternate: Polymer Resin",
@@ -2142,7 +2418,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  50
+        "score":  50,
+        "diffPower":  -0.02,
+        "diffItems":  -0.04,
+        "diffBuildings":  0.04,
+        "diffResources":  0.07
     },
     {
         "csvName":  "Alternate: Diluted Packaged Fuel",
@@ -2171,7 +2451,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  50
+        "score":  50,
+        "diffPower":  0,
+        "diffItems":  0,
+        "diffBuildings":  0,
+        "diffResources":  0
     },
     {
         "csvName":  "Alternate: Heavy Oil Residue",
@@ -2200,7 +2484,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  50
+        "score":  50,
+        "diffPower":  0,
+        "diffItems":  0.01,
+        "diffBuildings":  0,
+        "diffResources":  -0.01
     },
     {
         "csvName":  "Alternate: Pure Iron Ingot",
@@ -2229,7 +2517,11 @@
                                 "rate":  "20 / min"
                             }
                         ],
-        "score":  49.7
+        "score":  49.7,
+        "diffPower":  0.06,
+        "diffItems":  -0.02,
+        "diffBuildings":  -0.23,
+        "diffResources":  -0.05
     },
     {
         "csvName":  "Alternate: Leached Iron ingot",
@@ -2258,7 +2550,11 @@
                                 "rate":  "10 / min"
                             }
                         ],
-        "score":  49.7
+        "score":  49.7,
+        "diffPower":  0.04,
+        "diffItems":  -0.03,
+        "diffBuildings":  -0.29,
+        "diffResources":  -0.12
     },
     {
         "csvName":  "Alternate: Iron Wire",
@@ -2282,7 +2578,11 @@
                                 "rate":  "12.5 / min"
                             }
                         ],
-        "score":  49.5
+        "score":  49.5,
+        "diffPower":  0.04,
+        "diffItems":  -0.04,
+        "diffBuildings":  0.61,
+        "diffResources":  -0.17
     },
     {
         "csvName":  "Alternate: Coated Iron Canister",
@@ -2311,7 +2611,11 @@
                                 "rate":  "15 / min"
                             }
                         ],
-        "score":  49.4
+        "score":  49.4,
+        "diffPower":  0.01,
+        "diffItems":  0.06,
+        "diffBuildings":  0.06,
+        "diffResources":  0.06
     },
     {
         "csvName":  "Alternate: Classic Battery",
@@ -2350,7 +2654,11 @@
                                 "rate":  "90 / min"
                             }
                         ],
-        "score":  49.3
+        "score":  49.3,
+        "diffPower":  0.03,
+        "diffItems":  0.19,
+        "diffBuildings":  0.54,
+        "diffResources":  -0.45
     },
     {
         "csvName":  "Alternate: Steel Canister",
@@ -2374,7 +2682,11 @@
                                 "rate":  "40 / min"
                             }
                         ],
-        "score":  49.1
+        "score":  49.1,
+        "diffPower":  -0.01,
+        "diffItems":  0.17,
+        "diffBuildings":  0.11,
+        "diffResources":  0.12
     },
     {
         "csvName":  "Alternate: Fused Quickwire",
@@ -2403,7 +2715,11 @@
                                 "rate":  "37.5 / min"
                             }
                         ],
-        "score":  49
+        "score":  49,
+        "diffPower":  0.22,
+        "diffItems":  0.93,
+        "diffBuildings":  -1.53,
+        "diffResources":  1.07
     },
     {
         "csvName":  "Alternate: Cheap Silica",
@@ -2432,7 +2748,11 @@
                                 "rate":  "37.5 / min"
                             }
                         ],
-        "score":  49
+        "score":  49,
+        "diffPower":  0.3,
+        "diffItems":  0.53,
+        "diffBuildings":  -0.47,
+        "diffResources":  1.25
     },
     {
         "csvName":  "Alternate: Molded Beam",
@@ -2461,7 +2781,11 @@
                                 "rate":  "80 / min"
                             }
                         ],
-        "score":  48.5
+        "score":  48.5,
+        "diffPower":  0.02,
+        "diffItems":  0.03,
+        "diffBuildings":  -0.34,
+        "diffResources":  0.24
     },
     {
         "csvName":  "Alternate: Alclad Casing",
@@ -2490,7 +2814,11 @@
                                 "rate":  "75 / min"
                             }
                         ],
-        "score":  48.5
+        "score":  48.5,
+        "diffPower":  0.1,
+        "diffItems":  0.15,
+        "diffBuildings":  -0.53,
+        "diffResources":  0.58
     },
     {
         "csvName":  "Alternate: Basic Iron Ingot",
@@ -2519,7 +2847,11 @@
                                 "rate":  "40 / min"
                             }
                         ],
-        "score":  48.3
+        "score":  48.3,
+        "diffPower":  0.05,
+        "diffItems":  0.06,
+        "diffBuildings":  -0.17,
+        "diffResources":  0.14
     },
     {
         "csvName":  "Alternate: Distilled Silica",
@@ -2558,7 +2890,11 @@
                                 "rate":  "100 / min"
                             }
                         ],
-        "score":  48.2
+        "score":  48.2,
+        "diffPower":  0.24,
+        "diffItems":  0.72,
+        "diffBuildings":  -0.85,
+        "diffResources":  0.25
     },
     {
         "csvName":  "Alternate: Fused Quartz Crystal",
@@ -2587,7 +2923,11 @@
                                 "rate":  "36 / min"
                             }
                         ],
-        "score":  48.1
+        "score":  48.1,
+        "diffPower":  0.15,
+        "diffItems":  0.28,
+        "diffBuildings":  -1.29,
+        "diffResources":  0.66
     },
     {
         "csvName":  "Alternate: Molded Steel Pipe",
@@ -2616,7 +2956,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  46.5
+        "score":  46.5,
+        "diffPower":  0.1,
+        "diffItems":  0,
+        "diffBuildings":  -1.55,
+        "diffResources":  0.49
     },
     {
         "csvName":  "Alternate: Leached Caterium Ingot",
@@ -2645,7 +2989,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  46.4
+        "score":  46.4,
+        "diffPower":  0.31,
+        "diffItems":  0.27,
+        "diffBuildings":  -0.34,
+        "diffResources":  0.15
     },
     {
         "csvName":  "Alternate: Turbo Blend Fuel",
@@ -2684,7 +3032,11 @@
                                 "rate":  "22.5 / min"
                             }
                         ],
-        "score":  46.1
+        "score":  46.1,
+        "diffPower":  -0.53,
+        "diffItems":  -0.02,
+        "diffBuildings":  -1.13,
+        "diffResources":  0.6
     },
     {
         "csvName":  "Alternate: Electrode Circuit Board",
@@ -2713,7 +3065,11 @@
                                 "rate":  "40 / min"
                             }
                         ],
-        "score":  45.3
+        "score":  45.3,
+        "diffPower":  -0.2,
+        "diffItems":  -0.24,
+        "diffBuildings":  0.23,
+        "diffResources":  -1.05
     },
     {
         "csvName":  "Alternate: Pure Caterium Ingot",
@@ -2742,7 +3098,11 @@
                                 "rate":  "24 / min"
                             }
                         ],
-        "score":  44.1
+        "score":  44.1,
+        "diffPower":  0.68,
+        "diffItems":  0.32,
+        "diffBuildings":  0.47,
+        "diffResources":  0.68
     },
     {
         "csvName":  "Alternate: Encased Industrial Pipe",
@@ -2771,7 +3131,11 @@
                                 "rate":  "20 / min"
                             }
                         ],
-        "score":  42.6
+        "score":  42.6,
+        "diffPower":  0.43,
+        "diffItems":  0.6,
+        "diffBuildings":  1.83,
+        "diffResources":  0.24
     },
     {
         "csvName":  "Alternate: Recycled Rubber",
@@ -2800,7 +3164,11 @@
                                 "rate":  "30 / min"
                             }
                         ],
-        "score":  42.1
+        "score":  42.1,
+        "diffPower":  0.96,
+        "diffItems":  2.06,
+        "diffBuildings":  2.81,
+        "diffResources":  1.41
     },
     {
         "csvName":  "Alternate: Compacted Steel Ingot",
@@ -2829,7 +3197,11 @@
                                 "rate":  "2.5 / min"
                             }
                         ],
-        "score":  38
+        "score":  38,
+        "diffPower":  0.15,
+        "diffItems":  1.58,
+        "diffBuildings":  0.48,
+        "diffResources":  -0.85
     },
     {
         "csvName":  "Alternate: Quartz Purification",
@@ -2863,7 +3235,11 @@
                                 "rate":  "10 / min"
                             }
                         ],
-        "score":  37.2
+        "score":  37.2,
+        "diffPower":  0.73,
+        "diffItems":  1.13,
+        "diffBuildings":  -2.74,
+        "diffResources":  1.04
     },
     {
         "csvName":  "Alternate: Plutonium Fuel Unit",
@@ -2892,7 +3268,11 @@
                                 "rate":  "0.5 / min"
                             }
                         ],
-        "score":  36.4
+        "score":  36.4,
+        "diffPower":  0.19,
+        "diffItems":  0.95,
+        "diffBuildings":  0.74,
+        "diffResources":  0.91
     },
     {
         "csvName":  "Alternate: Pink Diamonds",
@@ -2921,7 +3301,11 @@
                                 "rate":  "45 / min"
                             }
                         ],
-        "score":  35.8
+        "score":  35.8,
+        "diffPower":  0.27,
+        "diffItems":  -0.88,
+        "diffBuildings":  2.31,
+        "diffResources":  -4.14
     },
     {
         "csvName":  "Alternate: Instant Plutonium Cell",
@@ -2950,7 +3334,11 @@
                                 "rate":  "10 / min"
                             }
                         ],
-        "score":  34.9
+        "score":  34.9,
+        "diffPower":  1.04,
+        "diffItems":  0.62,
+        "diffBuildings":  0.53,
+        "diffResources":  0.56
     },
     {
         "csvName":  "Alternate: Iron Pipe",
@@ -2974,7 +3362,11 @@
                                 "rate":  "100 / min"
                             }
                         ],
-        "score":  33
+        "score":  33,
+        "diffPower":  0.24,
+        "diffItems":  1.46,
+        "diffBuildings":  0.6,
+        "diffResources":  2.02
     },
     {
         "csvName":  "Alternate: Instant Scrap",
@@ -3018,7 +3410,11 @@
                                 "rate":  "60 / min"
                             }
                         ],
-        "score":  23.1
+        "score":  23.1,
+        "diffPower":  1.48,
+        "diffItems":  -2.71,
+        "diffBuildings":  1.04,
+        "diffResources":  -0.73
     },
     {
         "csvName":  "Alternate: Pure Copper Ingot",
@@ -3047,7 +3443,11 @@
                                 "rate":  "10 / min"
                             }
                         ],
-        "score":  19.5
+        "score":  19.5,
+        "diffPower":  12.56,
+        "diffItems":  -4.06,
+        "diffBuildings":  -4.44,
+        "diffResources":  -11.41
     },
     {
         "csvName":  "Alternate: Fertile Uranium",
@@ -3091,7 +3491,11 @@
                                 "rate":  "25 / min"
                             }
                         ],
-        "score":  13
+        "score":  13,
+        "diffPower":  2.76,
+        "diffItems":  2.25,
+        "diffBuildings":  2.19,
+        "diffResources":  2.45
     },
     {
         "csvName":  "Alternate: Radio Connection Unit",
@@ -3125,7 +3529,11 @@
                                 "rate":  "45 / min"
                             }
                         ],
-        "score":  9.1
+        "score":  9.1,
+        "diffPower":  0.62,
+        "diffItems":  2.71,
+        "diffBuildings":  3.92,
+        "diffResources":  2.19
     },
     {
         "csvName":  "Alternate: Cloudy Diamonds",
@@ -3154,7 +3562,11 @@
                                 "rate":  "480 / min"
                             }
                         ],
-        "score":  5.2
+        "score":  5.2,
+        "diffPower":  4.19,
+        "diffItems":  5.4,
+        "diffBuildings":  1.43,
+        "diffResources":  11.85
     },
     {
         "csvName":  "Alternate: Dark-Ion Fuel",
@@ -3188,7 +3600,11 @@
                                 "rate":  "80 / min"
                             }
                         ],
-        "score":  4.2
+        "score":  4.2,
+        "diffPower":  -0.23,
+        "diffItems":  4.33,
+        "diffBuildings":  2.59,
+        "diffResources":  3.75
     },
     {
         "csvName":  "Alternate: Dark Matter Crystallization",
@@ -3212,7 +3628,11 @@
                                 "rate":  "200 / min"
                             }
                         ],
-        "score":  3.2
+        "score":  3.2,
+        "diffPower":  4.62,
+        "diffItems":  3,
+        "diffBuildings":  3.19,
+        "diffResources":  3.38
     },
     {
         "csvName":  "Alternate: Petroleum Diamonds",
@@ -3236,7 +3656,11 @@
                                 "rate":  "720 / min"
                             }
                         ],
-        "score":  2.9
+        "score":  2.9,
+        "diffPower":  3.73,
+        "diffItems":  6.85,
+        "diffBuildings":  11.75,
+        "diffResources":  -9.73
     },
     {
         "csvName":  "Alternate: Leached Copper Ingot",
@@ -3265,7 +3689,11 @@
                                 "rate":  "25 / min"
                             }
                         ],
-        "score":  2
+        "score":  2,
+        "diffPower":  5.2,
+        "diffItems":  2.18,
+        "diffBuildings":  -18.87,
+        "diffResources":  -4.65
     },
     {
         "csvName":  "Alternate: Tempered Copper Ingot",
@@ -3294,7 +3722,11 @@
                                 "rate":  "40 / min"
                             }
                         ],
-        "score":  0.2
+        "score":  0.2,
+        "diffPower":  7.99,
+        "diffItems":  9.95,
+        "diffBuildings":  -3.63,
+        "diffResources":  -16.7
     }
 ]
 ;

@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tier: [],      // Array to support multiple tiers
         building: [],  // Array to support multiple buildings
         grade: [],     // Array to support multiple grades
+        efficiency: [], // Array to support multiple efficiency savings types
         sortBy: 'score' // 'score', 'name', 'tier'
     };
 
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalRecipesCount = document.getElementById('total-recipes-count');
     const tierFiltersContainer = document.getElementById('tier-filters');
     const buildingFiltersContainer = document.getElementById('building-filters');
+    const efficiencyFiltersContainer = document.getElementById('efficiency-filters');
     const sortButtons = document.querySelectorAll('.sort-btn');
 
     // Load recipe data from global variable (bypasses browser CORS policy for local files)
@@ -55,6 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.addEventListener('click', handleFilterClick);
         });
         document.getElementById('grade-filters').querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', handleFilterClick);
+        });
+        efficiencyFiltersContainer.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', handleFilterClick);
         });
 
@@ -127,6 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (filterType === 'tier') container = tierFiltersContainer;
         else if (filterType === 'building') container = buildingFiltersContainer;
         else if (filterType === 'grade') container = document.getElementById('grade-filters');
+        else if (filterType === 'efficiency') container = efficiencyFiltersContainer;
 
         if (filterVal === 'all') {
             // "All" clicked: Clear this category's filter array
@@ -210,7 +216,16 @@ document.addEventListener('DOMContentLoaded', () => {
             // Grade match
             const matchesGrade = activeFilters.grade.length === 0 || activeFilters.grade.includes(getScoreGrade(recipe.score));
 
-            return matchesSearch && matchesTier && matchesBuilding && matchesGrade;
+            // Efficiency Savings match (negatives means more efficient than base)
+            const matchesEfficiency = activeFilters.efficiency.length === 0 || activeFilters.efficiency.every(eff => {
+                if (eff === 'power') return recipe.diffPower < 0;
+                if (eff === 'items') return recipe.diffItems < 0;
+                if (eff === 'buildings') return recipe.diffBuildings < 0;
+                if (eff === 'resources') return recipe.diffResources < 0;
+                return true;
+            });
+
+            return matchesSearch && matchesTier && matchesBuilding && matchesGrade && matchesEfficiency;
         });
 
         // 2. Sort Data
@@ -276,6 +291,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `).join('');
 
+            // Generate efficiency badges (negative percentages in CSV mean efficiency savings)
+            const effBadges = [];
+            if (recipe.diffPower < 0) effBadges.push('<span class="eff-badge power">Power Saving</span>');
+            if (recipe.diffItems < 0) effBadges.push('<span class="eff-badge items">Items Saving</span>');
+            if (recipe.diffBuildings < 0) effBadges.push('<span class="eff-badge buildings">Buildings Saving</span>');
+            if (recipe.diffResources < 0) effBadges.push('<span class="eff-badge resources">Resources Saving</span>');
+            const efficiencyHTML = effBadges.length > 0 
+                ? `<div class="efficiency-badges">${effBadges.join('')}</div>`
+                : '';
+
             card.innerHTML = `
                 <div class="card-header">
                     <div class="recipe-title-area">
@@ -312,6 +337,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         ${productsHTML}
                     </div>
                 </div>
+                
+                ${efficiencyHTML}
                 
                 <div class="card-footer">
                     <span class="unlock-path">${recipe.unlockDetail}</span>

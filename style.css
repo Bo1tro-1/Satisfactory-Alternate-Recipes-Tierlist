@@ -595,6 +595,48 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Efficiency Badges inside Cards */
+.efficiency-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0.25rem 0;
+}
+
+.eff-badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    border: 1px solid transparent;
+}
+
+.eff-badge.power {
+    background-color: rgba(26, 188, 156, 0.15);
+    color: #1abc9c;
+    border-color: rgba(26, 188, 156, 0.3);
+}
+
+.eff-badge.items {
+    background-color: rgba(52, 152, 219, 0.15);
+    color: #3498db;
+    border-color: rgba(52, 152, 219, 0.3);
+}
+
+.eff-badge.buildings {
+    background-color: rgba(155, 89, 182, 0.15);
+    color: #9b59b6;
+    border-color: rgba(155, 89, 182, 0.3);
+}
+
+.eff-badge.resources {
+    background-color: rgba(241, 196, 15, 0.15);
+    color: #f1c40f;
+    border-color: rgba(241, 196, 15, 0.3);
+}
+
 /* Back to Top Button */
 .back-to-top {
     position: fixed;
