@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satisfactory Alternate Recipes - Local Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-area">
+                <span class="ficsit-badge">FICSIT</span>
+                <h1>ALTERNATE RECIPES</h1>
+                <p class="subtitle">Satisfactory 1.2 Production Optimization Database</p>
+            </div>
+            <div class="stats-overview">
+                <div class="stat-box">
+                    <span class="stat-val" id="total-recipes-count">0</span>
+                    <span class="stat-label">Recipes</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="filters-panel">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search by recipe, ingredient or product...">
+                <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </div>
+            
+            <div class="filter-group">
+                <label>Sort by:</label>
+                <div class="sort-options">
+                    <button class="sort-btn active" data-sort="score">Score</button>
+                    <button class="sort-btn" data-sort="name">Name</button>
+                    <button class="sort-btn" data-sort="tier">Tier</button>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label>Recipe Grade (S-F):</label>
+                <div class="filter-scroll" id="grade-filters">
+                    <button class="filter-btn active" data-filter-type="grade" data-filter-val="all">All</button>
+                    <button class="filter-btn" data-filter-type="grade" data-filter-val="S">S-Tier</button>
+                    <button class="filter-btn" data-filter-type="grade" data-filter-val="A">A-Tier</button>
+                    <button class="filter-btn" data-filter-type="grade" data-filter-val="B">B-Tier</button>
+                    <button class="filter-btn" data-filter-type="grade" data-filter-val="C">C-Tier</button>
+                    <button class="filter-btn" data-filter-type="grade" data-filter-val="F">F-Tier</button>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label>Tier / MAM:</label>
+                <div class="filter-scroll" id="tier-filters">
+                    <button class="filter-btn active" data-filter-type="tier" data-filter-val="all">All</button>
+                    <!-- JavaScript will populate tiers dynamically -->
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label>Production Machine:</label>
+                <div class="filter-scroll" id="building-filters">
+                    <button class="filter-btn active" data-filter-type="building" data-filter-val="all">All</button>
+                    <!-- JavaScript will populate buildings dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <section class="recipes-container">
+            <div class="loading-state" id="loading-indicator">
+                <div class="spinner"></div>
+                <p>Analyzing local hard drives...</p>
+            </div>
+            <div class="recipes-grid" id="recipes-grid" style="display: none;">
+                <!-- Cards injected here by JS -->
+            </div>
+            <div class="no-results" id="no-results" style="display: none;">
+                <h3>No recipes found</h3>
+                <p>Try adjusting your search criteria or filters.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Alternate recipe rankings based on the <a href="https://www.reddit.com/r/SatisfactoryGame/comments/1fekus9/alternate_recipe_ranking_10_optimizing_for/?share_id=PusZNA4C6_oBgRUx-QALp&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=3" target="_blank" rel="noopener">Original Tierlist Analysis by u/wrigh516</a>.</p>
+        <p>Game assets, recipes, and images by <a href="https://www.coffeestainstudios.com/" target="_blank" rel="noopener">Coffee Stain Studios</a> & the official <a href="https://satisfactory.wiki.gg/" target="_blank" rel="noopener">Satisfactory Wiki</a>.</p>
+        <p>Interactive visualizer created by <a href="https://www.reddit.com/user/Vu1canio" target="_blank" rel="noopener">u/Vu1canio</a>.</p>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <script src="recipes-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
