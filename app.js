@@ -103,6 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (score >= 70) return 'tier-a';
         if (score >= 55) return 'tier-b';
         if (score >= 40) return 'tier-c';
+        if (score >= 30) return 'tier-d';
         return 'tier-f';
     }
 
@@ -112,6 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (score >= 70) return 'A';
         if (score >= 55) return 'B';
         if (score >= 40) return 'C';
+        if (score >= 30) return 'D';
         return 'F';
     }
 
