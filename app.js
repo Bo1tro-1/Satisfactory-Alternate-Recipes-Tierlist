@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const buildingFiltersContainer = document.getElementById('building-filters');
     const efficiencyFiltersContainer = document.getElementById('efficiency-filters');
     const sortButtons = document.querySelectorAll('.sort-btn');
+    const clearAllBtn = document.getElementById('clear-all-btn');
 
     // Load recipe data from global variable (bypasses browser CORS policy for local files)
     try {
@@ -177,6 +178,33 @@ document.addEventListener('DOMContentLoaded', () => {
         activeFilters.search = e.target.value.toLowerCase().trim();
         renderRecipes();
     });
+
+    // Clear All Filters handler
+    if (clearAllBtn) {
+        clearAllBtn.addEventListener('click', () => {
+            // Reset active filters
+            activeFilters.search = '';
+            activeFilters.tier = [];
+            activeFilters.building = [];
+            activeFilters.grade = [];
+            activeFilters.efficiency = [];
+            
+            // Reset search input value
+            searchInput.value = '';
+            
+            // Reset all dynamic and static filter button classes to 'all'
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                if (btn.dataset.filterVal === 'all') {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+            
+            // Render recipes
+            renderRecipes();
+        });
+    }
 
     // Sorting buttons handler
     sortButtons.forEach(btn => {
