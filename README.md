@@ -2,18 +2,18 @@
 
 An interactive, responsive, and completely self-contained alternate recipes database for **Satisfactory 1.2**. This tool visualizes production flows (Ingredients ➔ Machine ➔ Products) and ranks them using custom scores from the community spreadsheet.
 
-## 🚀 Live Demo
-👉 **[Open Live Visualizer](https://bo1tro-1.github.io/Satisfactory-Alternate-Recipes-Tierlist/)** 
+## Live Demo
+[Open Live Visualizer](https://bo1tro-1.github.io/Satisfactory-Alternate-Recipes-Tierlist/)
 
 ---
 
-## 📸 Preview
+## Preview
 
 ![Satisfactory Alternate Recipes Visualizer Preview](preview.png)
 
 ---
 
-## ✨ Features
+## Features
 *   **Production Flows:** View ingredients (and their consumption rates), products (and their production rates), and the machine required with its processing time.
 *   **Community Ratings (S-F Tiers):** Recipes are ranked based on community scores and color-coded into S, A, B, C, and F Tiers to quickly determine their efficiency.
 *   **Dynamic Filtering:** Filter recipes instantly by unlock Tier/MAM chain, or by production machine (Constructor, Assembler, Refinery, etc.).
@@ -25,7 +25,7 @@ An interactive, responsive, and completely self-contained alternate recipes data
 
 ---
 
-## 📦 How to Use
+## How to Use
 
 ### Option A: Use it Online
 Simply click the **Live Demo** link above to open it in your browser.
@@ -45,7 +45,7 @@ cd Satisfactory-Alternate-Recipes-Tierlist
 
 ---
 
-## 🛠️ Built With
+## Built With
 *   **Core:** HTML5 & Vanilla ES6+ JavaScript.
 *   **Styling:** Custom CSS3 with an industrial dark theme matching FICSIT aesthetics.
 *   **Icons:** Scalable SVG Vector Icons (magnifying glass and navigation indicators).
@@ -53,7 +53,7 @@ cd Satisfactory-Alternate-Recipes-Tierlist
 
 ---
 
-## 📚 Credits & Disclaimers
+## Credits & Disclaimers
 *   Recipe data and asset images are sourced from the **[Official Satisfactory Wiki](https://satisfactory.wiki.gg/)**.
 *   Satisfactory game assets, images, and names are copyrights of **[Coffee Stain Studios](https://www.coffeestainstudios.com/)**.
 *   Recipe scores and original spreadsheet ranking analysis created by **[u/wrigh516 on Reddit](https://www.reddit.com/r/SatisfactoryGame/comments/1fekus9/alternate_recipe_ranking_10_optimizing_for/)**.
