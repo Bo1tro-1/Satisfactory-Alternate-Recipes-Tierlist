@@ -167,16 +167,20 @@ foreach ($csvRow in $csvLines) {
         if ($matched.psobject.Properties['score']) { $matched.score = $score } else { Add-Member -InputObject $matched -MemberType NoteProperty -Name "score" -Value $score }
         if ($matched.psobject.Properties['csvName']) { $matched.csvName = $csvRecipeName } else { Add-Member -InputObject $matched -MemberType NoteProperty -Name "csvName" -Value $csvRecipeName }
         
-        # Parse comparison metrics using Add-Member to avoid dynamic property assignment errors
+        # Parse comparison metrics including scaled ones
         $diffPowerVal = &$parsePct $csvRow.Power
         $diffItemsVal = &$parsePct $csvRow.Items
         $diffBuildingsVal = &$parsePct $csvRow.Buildings
         $diffResourcesVal = &$parsePct $csvRow.Resources
+        $diffBuildingsScaledVal = &$parsePct $csvRow.BuildingsScaled
+        $diffResourcesScaledVal = &$parsePct $csvRow.ResourcesScaled
 
         if ($matched.psobject.Properties['diffPower']) { $matched.diffPower = $diffPowerVal } else { Add-Member -InputObject $matched -MemberType NoteProperty -Name "diffPower" -Value $diffPowerVal }
         if ($matched.psobject.Properties['diffItems']) { $matched.diffItems = $diffItemsVal } else { Add-Member -InputObject $matched -MemberType NoteProperty -Name "diffItems" -Value $diffItemsVal }
         if ($matched.psobject.Properties['diffBuildings']) { $matched.diffBuildings = $diffBuildingsVal } else { Add-Member -InputObject $matched -MemberType NoteProperty -Name "diffBuildings" -Value $diffBuildingsVal }
         if ($matched.psobject.Properties['diffResources']) { $matched.diffResources = $diffResourcesVal } else { Add-Member -InputObject $matched -MemberType NoteProperty -Name "diffResources" -Value $diffResourcesVal }
+        if ($matched.psobject.Properties['diffBuildingsScaled']) { $matched.diffBuildingsScaled = $diffBuildingsScaledVal } else { Add-Member -InputObject $matched -MemberType NoteProperty -Name "diffBuildingsScaled" -Value $diffBuildingsScaledVal }
+        if ($matched.psobject.Properties['diffResourcesScaled']) { $matched.diffResourcesScaled = $diffResourcesScaledVal } else { Add-Member -InputObject $matched -MemberType NoteProperty -Name "diffResourcesScaled" -Value $diffResourcesScaledVal }
 
         $finalRecipes += $matched
     } else {
@@ -191,16 +195,20 @@ foreach ($csvRow in $csvLines) {
             if ($matchedFuzzy.psobject.Properties['score']) { $matchedFuzzy.score = $score } else { Add-Member -InputObject $matchedFuzzy -MemberType NoteProperty -Name "score" -Value $score }
             if ($matchedFuzzy.psobject.Properties['csvName']) { $matchedFuzzy.csvName = $csvRecipeName } else { Add-Member -InputObject $matchedFuzzy -MemberType NoteProperty -Name "csvName" -Value $csvRecipeName }
 
-            # Parse comparison metrics using Add-Member
+            # Parse comparison metrics including scaled ones
             $diffPowerVal = &$parsePct $csvRow.Power
             $diffItemsVal = &$parsePct $csvRow.Items
             $diffBuildingsVal = &$parsePct $csvRow.Buildings
             $diffResourcesVal = &$parsePct $csvRow.Resources
+            $diffBuildingsScaledVal = &$parsePct $csvRow.BuildingsScaled
+            $diffResourcesScaledVal = &$parsePct $csvRow.ResourcesScaled
 
             if ($matchedFuzzy.psobject.Properties['diffPower']) { $matchedFuzzy.diffPower = $diffPowerVal } else { Add-Member -InputObject $matchedFuzzy -MemberType NoteProperty -Name "diffPower" -Value $diffPowerVal }
             if ($matchedFuzzy.psobject.Properties['diffItems']) { $matchedFuzzy.diffItems = $diffItemsVal } else { Add-Member -InputObject $matchedFuzzy -MemberType NoteProperty -Name "diffItems" -Value $diffItemsVal }
             if ($matchedFuzzy.psobject.Properties['diffBuildings']) { $matchedFuzzy.diffBuildings = $diffBuildingsVal } else { Add-Member -InputObject $matchedFuzzy -MemberType NoteProperty -Name "diffBuildings" -Value $diffBuildingsVal }
             if ($matchedFuzzy.psobject.Properties['diffResources']) { $matchedFuzzy.diffResources = $diffResourcesVal } else { Add-Member -InputObject $matchedFuzzy -MemberType NoteProperty -Name "diffResources" -Value $diffResourcesVal }
+            if ($matchedFuzzy.psobject.Properties['diffBuildingsScaled']) { $matchedFuzzy.diffBuildingsScaled = $diffBuildingsScaledVal } else { Add-Member -InputObject $matchedFuzzy -MemberType NoteProperty -Name "diffBuildingsScaled" -Value $diffBuildingsScaledVal }
+            if ($matchedFuzzy.psobject.Properties['diffResourcesScaled']) { $matchedFuzzy.diffResourcesScaled = $diffResourcesScaledVal } else { Add-Member -InputObject $matchedFuzzy -MemberType NoteProperty -Name "diffResourcesScaled" -Value $diffResourcesScaledVal }
 
             $finalRecipes += $matchedFuzzy
         } else {

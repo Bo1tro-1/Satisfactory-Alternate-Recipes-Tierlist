@@ -40,7 +40,9 @@
         "diffPower":  -1.83,
         "diffItems":  -6.53,
         "diffBuildings":  -7.65,
-        "diffResources":  -2.77
+        "diffResources":  -2.77,
+        "diffBuildingsScaled":  -6.02,
+        "diffResourcesScaled":  -2.51
     },
     {
         "csvName":  "Alternate: Copper Alloy Ingot",
@@ -73,7 +75,9 @@
         "diffPower":  0.55,
         "diffItems":  0.07,
         "diffBuildings":  -23.37,
-        "diffResources":  0.1
+        "diffResources":  0.1,
+        "diffBuildingsScaled":  -1.24,
+        "diffResourcesScaled":  -8.11
     },
     {
         "csvName":  "Alternate: Pure Aluminum Ingot",
@@ -101,7 +105,9 @@
         "diffPower":  -0.66,
         "diffItems":  -1.67,
         "diffBuildings":  -2.16,
-        "diffResources":  -2.16
+        "diffResources":  -2.16,
+        "diffBuildingsScaled":  -2.7,
+        "diffResourcesScaled":  -5.28
     },
     {
         "csvName":  "Alternate: Oil-Based Diamonds",
@@ -129,7 +135,9 @@
         "diffPower":  -2.54,
         "diffItems":  -4.89,
         "diffBuildings":  -0.82,
-        "diffResources":  -10.88
+        "diffResources":  -10.88,
+        "diffBuildingsScaled":  -0.81,
+        "diffResourcesScaled":  -2.05
     },
     {
         "csvName":  "Alternate: Dark Matter Trap",
@@ -162,7 +170,9 @@
         "diffPower":  -0.52,
         "diffItems":  -1.53,
         "diffBuildings":  0.05,
-        "diffResources":  -2.26
+        "diffResources":  -2.26,
+        "diffBuildingsScaled":  -0.27,
+        "diffResourcesScaled":  -5.58
     },
     {
         "csvName":  "Alternate: Heavy Flexible Frame",
@@ -205,7 +215,9 @@
         "diffPower":  -1.02,
         "diffItems":  -3.62,
         "diffBuildings":  -3.84,
-        "diffResources":  -2.19
+        "diffResources":  -2.19,
+        "diffBuildingsScaled":  -3.12,
+        "diffResourcesScaled":  -0.8
     },
     {
         "csvName":  "Alternate: Sloppy Alumina",
@@ -238,7 +250,9 @@
         "diffPower":  -0.9,
         "diffItems":  -2.46,
         "diffBuildings":  1.2,
-        "diffResources":  -4.81
+        "diffResources":  -4.81,
+        "diffBuildingsScaled":  -3.05,
+        "diffResourcesScaled":  -0.65
     },
     {
         "csvName":  "Alternate: Insulated Crystal Oscillator",
@@ -276,7 +290,9 @@
         "diffPower":  -1.34,
         "diffItems":  -1.62,
         "diffBuildings":  -3.05,
-        "diffResources":  -1.38
+        "diffResources":  -1.38,
+        "diffBuildingsScaled":  -3.71,
+        "diffResourcesScaled":  -1.06
     },
     {
         "csvName":  "Alternate: Silicon Circuit Board",
@@ -309,7 +325,9 @@
         "diffPower":  -1.92,
         "diffItems":  -0.71,
         "diffBuildings":  -3.19,
-        "diffResources":  -0.66
+        "diffResources":  -0.66,
+        "diffBuildingsScaled":  -4.09,
+        "diffResourcesScaled":  -0.88
     },
     {
         "csvName":  "Alternate: Crystal Computer",
@@ -342,7 +360,9 @@
         "diffPower":  -1.23,
         "diffItems":  -2.01,
         "diffBuildings":  -2.15,
-        "diffResources":  -1.42
+        "diffResources":  -1.42,
+        "diffBuildingsScaled":  -2.41,
+        "diffResourcesScaled":  -0.96
     },
     {
         "csvName":  "Alternate: Heat-Fused Frame",
@@ -385,7 +405,9 @@
         "diffPower":  -0.35,
         "diffItems":  -2.77,
         "diffBuildings":  -2.57,
-        "diffResources":  -1
+        "diffResources":  -1,
+        "diffBuildingsScaled":  -0.85,
+        "diffResourcesScaled":  -1.62
     },
     {
         "csvName":  "Alternate: Uranium Fuel Unit",
@@ -428,7 +450,9 @@
         "diffPower":  -1.64,
         "diffItems":  -1.63,
         "diffBuildings":  -1.55,
-        "diffResources":  -1.94
+        "diffResources":  -1.94,
+        "diffBuildingsScaled":  -0.81,
+        "diffResourcesScaled":  -2.65
     },
     {
         "csvName":  "Alternate: Caterium Circuit Board",
@@ -461,7 +485,9 @@
         "diffPower":  -1.96,
         "diffItems":  -0.69,
         "diffBuildings":  -2.72,
-        "diffResources":  -1.78
+        "diffResources":  -1.78,
+        "diffBuildingsScaled":  -3.8,
+        "diffResourcesScaled":  -0.43
     },
     {
         "csvName":  "Alternate: Super-State Computer",
@@ -504,7 +530,9 @@
         "diffPower":  -0.83,
         "diffItems":  -0.97,
         "diffBuildings":  -2.77,
-        "diffResources":  -0.4
+        "diffResources":  -0.4,
+        "diffBuildingsScaled":  -2.18,
+        "diffResourcesScaled":  -0.93
     },
     {
         "csvName":  "Alternate: Turbo Diamonds",
@@ -537,7 +565,9 @@
         "diffPower":  -3.09,
         "diffItems":  -1.73,
         "diffBuildings":  0.71,
-        "diffResources":  -6
+        "diffResources":  -6,
+        "diffBuildingsScaled":  1.19,
+        "diffResourcesScaled":  -3.1
     },
     {
         "csvName":  "Alternate: Caterium Computer",
@@ -575,7 +605,9 @@
         "diffPower":  -1.01,
         "diffItems":  -1.16,
         "diffBuildings":  -1.25,
-        "diffResources":  -0.85
+        "diffResources":  -0.85,
+        "diffBuildingsScaled":  -1.93,
+        "diffResourcesScaled":  -0.6
     },
     {
         "csvName":  "Alternate: Electrode Aluminum Scrap",
@@ -613,7 +645,9 @@
         "diffPower":  0.23,
         "diffItems":  -1.27,
         "diffBuildings":  1.23,
-        "diffResources":  -5.41
+        "diffResources":  -5.41,
+        "diffBuildingsScaled":  1.17,
+        "diffResourcesScaled":  -3.27
     },
     {
         "csvName":  "Alternate: Diluted Fuel",
@@ -646,7 +680,9 @@
         "diffPower":  -0.96,
         "diffItems":  0.17,
         "diffBuildings":  -1.67,
-        "diffResources":  1.32
+        "diffResources":  1.32,
+        "diffBuildingsScaled":  -2.63,
+        "diffResourcesScaled":  -0.57
     },
     {
         "csvName":  "Alternate: Turbo Pressure Motor",
@@ -689,7 +725,9 @@
         "diffPower":  -0.58,
         "diffItems":  -0.74,
         "diffBuildings":  -0.94,
-        "diffResources":  -0.61
+        "diffResources":  -0.61,
+        "diffBuildingsScaled":  -1.23,
+        "diffResourcesScaled":  -1.05
     },
     {
         "csvName":  "Alternate: Rubber Concrete",
@@ -722,7 +760,9 @@
         "diffPower":  -0.27,
         "diffItems":  -1.56,
         "diffBuildings":  -3.8,
-        "diffResources":  -4.03
+        "diffResources":  -4.03,
+        "diffBuildingsScaled":  -0.52,
+        "diffResourcesScaled":  -0.84
     },
     {
         "csvName":  "Alternate: Plastic AI Limiter",
@@ -755,7 +795,9 @@
         "diffPower":  -0.42,
         "diffItems":  -1.02,
         "diffBuildings":  -1.57,
-        "diffResources":  -1.2
+        "diffResources":  -1.2,
+        "diffBuildingsScaled":  -1.31,
+        "diffResourcesScaled":  -0.48
     },
     {
         "csvName":  "Alternate: Steel Screw",
@@ -783,7 +825,9 @@
         "diffPower":  -0.42,
         "diffItems":  -0.51,
         "diffBuildings":  -5.15,
-        "diffResources":  -0.14
+        "diffResources":  -0.14,
+        "diffBuildingsScaled":  -2.07,
+        "diffResourcesScaled":  -0.02
     },
     {
         "csvName":  "Alternate: Rigor Motor",
@@ -821,7 +865,9 @@
         "diffPower":  -0.02,
         "diffItems":  -1.17,
         "diffBuildings":  -1.12,
-        "diffResources":  -0.68
+        "diffResources":  -0.68,
+        "diffBuildingsScaled":  -0.5,
+        "diffResourcesScaled":  -0.71
     },
     {
         "csvName":  "Alternate: Steel Rod",
@@ -849,7 +895,9 @@
         "diffPower":  -0.3,
         "diffItems":  -0.71,
         "diffBuildings":  -3.05,
-        "diffResources":  -0.83
+        "diffResources":  -0.83,
+        "diffBuildingsScaled":  -1.41,
+        "diffResourcesScaled":  -0.25
     },
     {
         "csvName":  "Alternate: Fine Concrete",
@@ -882,7 +930,9 @@
         "diffPower":  -0.25,
         "diffItems":  -1.32,
         "diffBuildings":  -2.92,
-        "diffResources":  -3.79
+        "diffResources":  -3.79,
+        "diffBuildingsScaled":  -0.04,
+        "diffResourcesScaled":  -0.84
     },
     {
         "csvName":  "Alternate: Steeled Frame",
@@ -915,7 +965,9 @@
         "diffPower":  -0.42,
         "diffItems":  -0.02,
         "diffBuildings":  -1.85,
-        "diffResources":  0.17
+        "diffResources":  0.17,
+        "diffBuildingsScaled":  -2.04,
+        "diffResourcesScaled":  -0.1
     },
     {
         "csvName":  "Alternate: Aluminum Beam",
@@ -943,7 +995,9 @@
         "diffPower":  -0.64,
         "diffItems":  -1.11,
         "diffBuildings":  -2.3,
-        "diffResources":  -0.66
+        "diffResources":  -0.66,
+        "diffBuildingsScaled":  -1.64,
+        "diffResourcesScaled":  0.64
     },
     {
         "csvName":  "Alternate: Aluminum Rod",
@@ -971,7 +1025,9 @@
         "diffPower":  -0.33,
         "diffItems":  -0.54,
         "diffBuildings":  -3.06,
-        "diffResources":  -0.71
+        "diffResources":  -0.71,
+        "diffBuildingsScaled":  -1.44,
+        "diffResourcesScaled":  0.16
     },
     {
         "csvName":  "Alternate: Turbo Electric Motor",
@@ -1014,7 +1070,9 @@
         "diffPower":  -0.33,
         "diffItems":  -0.19,
         "diffBuildings":  -0.32,
-        "diffResources":  -0.39
+        "diffResources":  -0.39,
+        "diffBuildingsScaled":  -0.59,
+        "diffResourcesScaled":  -0.96
     },
     {
         "csvName":  "Alternate: Electric Motor",
@@ -1047,7 +1105,9 @@
         "diffPower":  -0.07,
         "diffItems":  -0.68,
         "diffBuildings":  -0.5,
-        "diffResources":  -0.53
+        "diffResources":  -0.53,
+        "diffBuildingsScaled":  -0.34,
+        "diffResourcesScaled":  -0.6
     },
     {
         "csvName":  "Alternate: Wet Concrete",
@@ -1080,7 +1140,9 @@
         "diffPower":  0.08,
         "diffItems":  -0.23,
         "diffBuildings":  -4,
-        "diffResources":  -0.56
+        "diffResources":  -0.56,
+        "diffBuildingsScaled":  -0.71,
+        "diffResourcesScaled":  -0.56
     },
     {
         "csvName":  "Alternate: Automated Speed Wiring",
@@ -1118,7 +1180,9 @@
         "diffPower":  -0.06,
         "diffItems":  -0.57,
         "diffBuildings":  -1.01,
-        "diffResources":  -0.06
+        "diffResources":  -0.06,
+        "diffBuildingsScaled":  -0.7,
+        "diffResourcesScaled":  -0.24
     },
     {
         "csvName":  "Alternate: Coke Steel Ingot",
@@ -1151,7 +1215,9 @@
         "diffPower":  -0.08,
         "diffItems":  -0.07,
         "diffBuildings":  -0.15,
-        "diffResources":  -2.94
+        "diffResources":  -2.94,
+        "diffBuildingsScaled":  -0.47,
+        "diffResourcesScaled":  -0.89
     },
     {
         "csvName":  "Alternate: Infused Uranium Cell",
@@ -1194,7 +1260,9 @@
         "diffPower":  -0.03,
         "diffItems":  0.51,
         "diffBuildings":  1.31,
-        "diffResources":  -0.25
+        "diffResources":  -0.25,
+        "diffBuildingsScaled":  0.79,
+        "diffResourcesScaled":  -2.56
     },
     {
         "csvName":  "Alternate: Silicon High-Speed Connector",
@@ -1232,7 +1300,9 @@
         "diffPower":  -0.06,
         "diffItems":  -0.59,
         "diffBuildings":  -0.71,
-        "diffResources":  -0.15
+        "diffResources":  -0.15,
+        "diffBuildingsScaled":  -0.41,
+        "diffResourcesScaled":  -0.16
     },
     {
         "csvName":  "Alternate: Radio Control System",
@@ -1275,7 +1345,9 @@
         "diffPower":  -0.95,
         "diffItems":  0.75,
         "diffBuildings":  -1.22,
-        "diffResources":  0.33
+        "diffResources":  0.33,
+        "diffBuildingsScaled":  -1.99,
+        "diffResourcesScaled":  0.1
     },
     {
         "csvName":  "Alternate: Solid Steel Ingot",
@@ -1308,7 +1380,9 @@
         "diffPower":  -0.14,
         "diffItems":  -0.27,
         "diffBuildings":  0.27,
-        "diffResources":  -2.46
+        "diffResources":  -2.46,
+        "diffBuildingsScaled":  0.25,
+        "diffResourcesScaled":  -0.96
     },
     {
         "csvName":  "Alternate: Heat Exchanger",
@@ -1341,7 +1415,9 @@
         "diffPower":  -0.19,
         "diffItems":  -0.41,
         "diffBuildings":  -0.57,
-        "diffResources":  -0.4
+        "diffResources":  -0.4,
+        "diffBuildingsScaled":  -0.6,
+        "diffResourcesScaled":  0.01
     },
     {
         "csvName":  "Alternate: Recycled Plastic",
@@ -1374,7 +1450,9 @@
         "diffPower":  0.11,
         "diffItems":  0.42,
         "diffBuildings":  0.1,
-        "diffResources":  -0.03
+        "diffResources":  -0.03,
+        "diffBuildingsScaled":  0.1,
+        "diffResourcesScaled":  -0.77
     },
     {
         "csvName":  "Alternate: Coated Iron Plate",
@@ -1407,7 +1485,9 @@
         "diffPower":  -0.07,
         "diffItems":  -0.48,
         "diffBuildings":  -1.26,
-        "diffResources":  -0.49
+        "diffResources":  -0.49,
+        "diffBuildingsScaled":  -0.35,
+        "diffResourcesScaled":  -0.11
     },
     {
         "csvName":  "Alternate: Adhered Iron Plate",
@@ -1440,7 +1520,9 @@
         "diffPower":  -0.01,
         "diffItems":  -0.94,
         "diffBuildings":  -0.2,
-        "diffResources":  -0.13
+        "diffResources":  -0.13,
+        "diffBuildingsScaled":  -0.04,
+        "diffResourcesScaled":  0.04
     },
     {
         "csvName":  "Alternate: Stitched Iron Plate",
@@ -1473,7 +1555,9 @@
         "diffPower":  -0.03,
         "diffItems":  -0.51,
         "diffBuildings":  -0.24,
-        "diffResources":  -0.04
+        "diffResources":  -0.04,
+        "diffBuildingsScaled":  -0.08,
+        "diffResourcesScaled":  -0.01
     },
     {
         "csvName":  "Alternate: Insulated Cable",
@@ -1506,7 +1590,9 @@
         "diffPower":  -0.04,
         "diffItems":  -0.43,
         "diffBuildings":  -0.74,
-        "diffResources":  -0.06
+        "diffResources":  -0.06,
+        "diffBuildingsScaled":  -0.31,
+        "diffResourcesScaled":  0.13
     },
     {
         "csvName":  "Alternate: Coated Cable",
@@ -1539,7 +1625,9 @@
         "diffPower":  0.04,
         "diffItems":  -0.38,
         "diffBuildings":  -0.62,
-        "diffResources":  -0.07
+        "diffResources":  -0.07,
+        "diffBuildingsScaled":  -0.19,
+        "diffResourcesScaled":  0.02
     },
     {
         "csvName":  "Alternate: Fused Wire",
@@ -1572,7 +1660,9 @@
         "diffPower":  -0.03,
         "diffItems":  -0.34,
         "diffBuildings":  -1.07,
-        "diffResources":  -0.42
+        "diffResources":  -0.42,
+        "diffBuildingsScaled":  -0.09,
+        "diffResourcesScaled":  -0.09
     },
     {
         "csvName":  "Alternate: Plastic Smart Plating",
@@ -1610,7 +1700,9 @@
         "diffPower":  0,
         "diffItems":  -0.17,
         "diffBuildings":  -0.54,
-        "diffResources":  -0.05
+        "diffResources":  -0.05,
+        "diffBuildingsScaled":  -0.33,
+        "diffResourcesScaled":  -0.01
     },
     {
         "csvName":  "Alternate: Copper Rotor",
@@ -1643,7 +1735,9 @@
         "diffPower":  -0.01,
         "diffItems":  -0.27,
         "diffBuildings":  -0.51,
-        "diffResources":  0.17
+        "diffResources":  0.17,
+        "diffBuildingsScaled":  -0.28,
+        "diffResourcesScaled":  0.03
     },
     {
         "csvName":  "Alternate: Steel Cast Plate",
@@ -1676,7 +1770,9 @@
         "diffPower":  0,
         "diffItems":  -0.33,
         "diffBuildings":  -0.97,
-        "diffResources":  -0.4
+        "diffResources":  -0.4,
+        "diffBuildingsScaled":  -0.09,
+        "diffResourcesScaled":  -0.09
     },
     {
         "csvName":  "Alternate: Nitro Rocket Fuel",
@@ -1724,7 +1820,9 @@
         "diffPower":  -1.39,
         "diffItems":  0.03,
         "diffBuildings":  -2.35,
-        "diffResources":  2.23
+        "diffResources":  2.23,
+        "diffBuildingsScaled":  -3.13,
+        "diffResourcesScaled":  2.56
     },
     {
         "csvName":  "Alternate: Steamed Copper Sheet",
@@ -1757,7 +1855,9 @@
         "diffPower":  0.47,
         "diffItems":  -0.43,
         "diffBuildings":  -2.36,
-        "diffResources":  0.08
+        "diffResources":  0.08,
+        "diffBuildingsScaled":  0.18,
+        "diffResourcesScaled":  -0.2
     },
     {
         "csvName":  "Alternate: OC Supercomputer",
@@ -1790,7 +1890,9 @@
         "diffPower":  -0.73,
         "diffItems":  0.95,
         "diffBuildings":  -1.76,
-        "diffResources":  0.64
+        "diffResources":  0.64,
+        "diffBuildingsScaled":  -2.19,
+        "diffResourcesScaled":  0.75
     },
     {
         "csvName":  "Alternate: Steel Rotor",
@@ -1823,7 +1925,9 @@
         "diffPower":  0.04,
         "diffItems":  -0.51,
         "diffBuildings":  -0.14,
-        "diffResources":  0.13
+        "diffResources":  0.13,
+        "diffBuildingsScaled":  0.03,
+        "diffResourcesScaled":  0.07
     },
     {
         "csvName":  "Alternate: Tempered Caterium Ingot",
@@ -1856,7 +1960,9 @@
         "diffPower":  -0.04,
         "diffItems":  -0.87,
         "diffBuildings":  1.39,
-        "diffResources":  -1.48
+        "diffResources":  -1.48,
+        "diffBuildingsScaled":  -0.19,
+        "diffResourcesScaled":  0.67
     },
     {
         "csvName":  "Alternate: Cooling Device",
@@ -1894,7 +2000,9 @@
         "diffPower":  0.08,
         "diffItems":  0.01,
         "diffBuildings":  0.24,
-        "diffResources":  -0.23
+        "diffResources":  -0.23,
+        "diffBuildingsScaled":  0.17,
+        "diffResourcesScaled":  -0.46
     },
     {
         "csvName":  "Alternate: Pure Quartz Crystal",
@@ -1927,7 +2035,9 @@
         "diffPower":  0.36,
         "diffItems":  0.27,
         "diffBuildings":  -1.21,
-        "diffResources":  0.61
+        "diffResources":  0.61,
+        "diffBuildingsScaled":  0.32,
+        "diffResourcesScaled":  -0.84
     },
     {
         "csvName":  "Alternate: Electromagnetic Connection Rod",
@@ -1960,7 +2070,9 @@
         "diffPower":  0.01,
         "diffItems":  -0.21,
         "diffBuildings":  -0.36,
-        "diffResources":  -0.01
+        "diffResources":  -0.01,
+        "diffBuildingsScaled":  -0.15,
+        "diffResourcesScaled":  0.07
     },
     {
         "csvName":  "Alternate: Quickwire Cable",
@@ -1993,7 +2105,9 @@
         "diffPower":  0.04,
         "diffItems":  -0.5,
         "diffBuildings":  -0.25,
-        "diffResources":  -0.08
+        "diffResources":  -0.08,
+        "diffBuildingsScaled":  0.12,
+        "diffResourcesScaled":  0.09
     },
     {
         "csvName":  "Alternate: Caterium Wire",
@@ -2021,7 +2135,9 @@
         "diffPower":  -0.06,
         "diffItems":  -0.28,
         "diffBuildings":  -1.03,
-        "diffResources":  -0.33
+        "diffResources":  -0.33,
+        "diffBuildingsScaled":  -0.32,
+        "diffResourcesScaled":  0.31
     },
     {
         "csvName":  "Alternate: Quickwire Stator",
@@ -2054,7 +2170,9 @@
         "diffPower":  -0.14,
         "diffItems":  -0.21,
         "diffBuildings":  -0.34,
-        "diffResources":  0.01
+        "diffResources":  0.01,
+        "diffBuildingsScaled":  -0.57,
+        "diffResourcesScaled":  0.49
     },
     {
         "csvName":  "Alternate: Bolted Frame",
@@ -2087,7 +2205,9 @@
         "diffPower":  -0.39,
         "diffItems":  1.39,
         "diffBuildings":  -1.6,
-        "diffResources":  -0.12
+        "diffResources":  -0.12,
+        "diffBuildingsScaled":  -1.63,
+        "diffResourcesScaled":  0.01
     },
     {
         "csvName":  "Alternate: Bolted Iron Plate",
@@ -2120,7 +2240,9 @@
         "diffPower":  -0.11,
         "diffItems":  0.25,
         "diffBuildings":  -0.44,
-        "diffResources":  0
+        "diffResources":  0,
+        "diffBuildingsScaled":  -0.5,
+        "diffResourcesScaled":  0.01
     },
     {
         "csvName":  "Alternate: Fine Black Powder",
@@ -2153,7 +2275,9 @@
         "diffPower":  -0.04,
         "diffItems":  -0.03,
         "diffBuildings":  -0.12,
-        "diffResources":  -0.03
+        "diffResources":  -0.03,
+        "diffBuildingsScaled":  -0.1,
+        "diffResourcesScaled":  -0.05
     },
     {
         "csvName":  "Alternate: Heavy Oil Residue",
@@ -2186,7 +2310,9 @@
         "diffPower":  0,
         "diffItems":  0.01,
         "diffBuildings":  0,
-        "diffResources":  -0.01
+        "diffResources":  -0.01,
+        "diffBuildingsScaled":  0,
+        "diffResourcesScaled":  0
     },
     {
         "csvName":  "Alternate: Flexible Framework",
@@ -2224,7 +2350,9 @@
         "diffPower":  0.04,
         "diffItems":  -0.14,
         "diffBuildings":  -0.15,
-        "diffResources":  -0.06
+        "diffResources":  -0.06,
+        "diffBuildingsScaled":  0.01,
+        "diffResourcesScaled":  -0.01
     },
     {
         "csvName":  "Alternate: Turbo Heavy Fuel",
@@ -2257,7 +2385,9 @@
         "diffPower":  -0.31,
         "diffItems":  -0.2,
         "diffBuildings":  -0.44,
-        "diffResources":  -0.21
+        "diffResources":  -0.21,
+        "diffBuildingsScaled":  -0.4,
+        "diffResourcesScaled":  0.46
     },
     {
         "csvName":  "Alternate: Cast Screw",
@@ -2285,7 +2415,9 @@
         "diffPower":  -0.01,
         "diffItems":  -0.05,
         "diffBuildings":  -1.51,
-        "diffResources":  0.65
+        "diffResources":  0.65,
+        "diffBuildingsScaled":  -0.23,
+        "diffResourcesScaled":  0.16
     },
     {
         "csvName":  "Alternate: Iron Alloy Ingot",
@@ -2318,7 +2450,9 @@
         "diffPower":  0.01,
         "diffItems":  -0.06,
         "diffBuildings":  -0.28,
-        "diffResources":  -0.14
+        "diffResources":  -0.14,
+        "diffBuildingsScaled":  0.03,
+        "diffResourcesScaled":  -0.02
     },
     {
         "csvName":  "Alternate: Polymer Resin",
@@ -2351,7 +2485,9 @@
         "diffPower":  -0.02,
         "diffItems":  -0.04,
         "diffBuildings":  0.04,
-        "diffResources":  0.07
+        "diffResources":  0.07,
+        "diffBuildingsScaled":  0.09,
+        "diffResourcesScaled":  0
     },
     {
         "csvName":  "Alternate: Quartz Purification",
@@ -2389,7 +2525,9 @@
         "diffPower":  0.73,
         "diffItems":  1.13,
         "diffBuildings":  -2.74,
-        "diffResources":  1.04
+        "diffResources":  1.04,
+        "diffBuildingsScaled":  1.38,
+        "diffResourcesScaled":  -0.33
     },
     {
         "csvName":  "Alternate: Polymer Resin",
@@ -2422,7 +2560,9 @@
         "diffPower":  -0.02,
         "diffItems":  -0.04,
         "diffBuildings":  0.04,
-        "diffResources":  0.07
+        "diffResources":  0.07,
+        "diffBuildingsScaled":  0.09,
+        "diffResourcesScaled":  0
     },
     {
         "csvName":  "Alternate: Diluted Packaged Fuel",
@@ -2455,7 +2595,9 @@
         "diffPower":  0,
         "diffItems":  0,
         "diffBuildings":  0,
-        "diffResources":  0
+        "diffResources":  0,
+        "diffBuildingsScaled":  0,
+        "diffResourcesScaled":  0
     },
     {
         "csvName":  "Alternate: Heavy Oil Residue",
@@ -2488,7 +2630,9 @@
         "diffPower":  0,
         "diffItems":  0.01,
         "diffBuildings":  0,
-        "diffResources":  -0.01
+        "diffResources":  -0.01,
+        "diffBuildingsScaled":  0,
+        "diffResourcesScaled":  0
     },
     {
         "csvName":  "Alternate: Pure Iron Ingot",
@@ -2521,7 +2665,9 @@
         "diffPower":  0.06,
         "diffItems":  -0.02,
         "diffBuildings":  -0.23,
-        "diffResources":  -0.05
+        "diffResources":  -0.05,
+        "diffBuildingsScaled":  0.07,
+        "diffResourcesScaled":  -0.01
     },
     {
         "csvName":  "Alternate: Leached Iron ingot",
@@ -2554,7 +2700,9 @@
         "diffPower":  0.04,
         "diffItems":  -0.03,
         "diffBuildings":  -0.29,
-        "diffResources":  -0.12
+        "diffResources":  -0.12,
+        "diffBuildingsScaled":  0.02,
+        "diffResourcesScaled":  0.06
     },
     {
         "csvName":  "Alternate: Iron Wire",
@@ -2582,7 +2730,9 @@
         "diffPower":  0.04,
         "diffItems":  -0.04,
         "diffBuildings":  0.61,
-        "diffResources":  -0.17
+        "diffResources":  -0.17,
+        "diffBuildingsScaled":  0.28,
+        "diffResourcesScaled":  -0.15
     },
     {
         "csvName":  "Alternate: Coated Iron Canister",
@@ -2615,7 +2765,9 @@
         "diffPower":  0.01,
         "diffItems":  0.06,
         "diffBuildings":  0.06,
-        "diffResources":  0.06
+        "diffResources":  0.06,
+        "diffBuildingsScaled":  0.16,
+        "diffResourcesScaled":  -0.11
     },
     {
         "csvName":  "Alternate: Classic Battery",
@@ -2658,7 +2810,9 @@
         "diffPower":  0.03,
         "diffItems":  0.19,
         "diffBuildings":  0.54,
-        "diffResources":  -0.45
+        "diffResources":  -0.45,
+        "diffBuildingsScaled":  0.39,
+        "diffResourcesScaled":  -0.44
     },
     {
         "csvName":  "Alternate: Steel Canister",
@@ -2686,7 +2840,9 @@
         "diffPower":  -0.01,
         "diffItems":  0.17,
         "diffBuildings":  0.11,
-        "diffResources":  0.12
+        "diffResources":  0.12,
+        "diffBuildingsScaled":  0.01,
+        "diffResourcesScaled":  -0.04
     },
     {
         "csvName":  "Alternate: Fused Quickwire",
@@ -2719,7 +2875,9 @@
         "diffPower":  0.22,
         "diffItems":  0.93,
         "diffBuildings":  -1.53,
-        "diffResources":  1.07
+        "diffResources":  1.07,
+        "diffBuildingsScaled":  0.77,
+        "diffResourcesScaled":  -1.47
     },
     {
         "csvName":  "Alternate: Cheap Silica",
@@ -2752,7 +2910,9 @@
         "diffPower":  0.3,
         "diffItems":  0.53,
         "diffBuildings":  -0.47,
-        "diffResources":  1.25
+        "diffResources":  1.25,
+        "diffBuildingsScaled":  0.78,
+        "diffResourcesScaled":  -0.09
     },
     {
         "csvName":  "Alternate: Molded Beam",
@@ -2785,7 +2945,9 @@
         "diffPower":  0.02,
         "diffItems":  0.03,
         "diffBuildings":  -0.34,
-        "diffResources":  0.24
+        "diffResources":  0.24,
+        "diffBuildingsScaled":  0.04,
+        "diffResourcesScaled":  0.17
     },
     {
         "csvName":  "Alternate: Alclad Casing",
@@ -2818,7 +2980,9 @@
         "diffPower":  0.1,
         "diffItems":  0.15,
         "diffBuildings":  -0.53,
-        "diffResources":  0.58
+        "diffResources":  0.58,
+        "diffBuildingsScaled":  0.27,
+        "diffResourcesScaled":  -0.16
     },
     {
         "csvName":  "Alternate: Basic Iron Ingot",
@@ -2851,7 +3015,9 @@
         "diffPower":  0.05,
         "diffItems":  0.06,
         "diffBuildings":  -0.17,
-        "diffResources":  0.14
+        "diffResources":  0.14,
+        "diffBuildingsScaled":  0.13,
+        "diffResourcesScaled":  0.08
     },
     {
         "csvName":  "Alternate: Distilled Silica",
@@ -2894,7 +3060,9 @@
         "diffPower":  0.24,
         "diffItems":  0.72,
         "diffBuildings":  -0.85,
-        "diffResources":  0.25
+        "diffResources":  0.25,
+        "diffBuildingsScaled":  0.81,
+        "diffResourcesScaled":  -0.18
     },
     {
         "csvName":  "Alternate: Fused Quartz Crystal",
@@ -2927,7 +3095,9 @@
         "diffPower":  0.15,
         "diffItems":  0.28,
         "diffBuildings":  -1.29,
-        "diffResources":  0.66
+        "diffResources":  0.66,
+        "diffBuildingsScaled":  0.23,
+        "diffResourcesScaled":  -0.18
     },
     {
         "csvName":  "Alternate: Molded Steel Pipe",
@@ -2960,7 +3130,9 @@
         "diffPower":  0.1,
         "diffItems":  0,
         "diffBuildings":  -1.55,
-        "diffResources":  0.49
+        "diffResources":  0.49,
+        "diffBuildingsScaled":  0.24,
+        "diffResourcesScaled":  0.31
     },
     {
         "csvName":  "Alternate: Leached Caterium Ingot",
@@ -2993,7 +3165,9 @@
         "diffPower":  0.31,
         "diffItems":  0.27,
         "diffBuildings":  -0.34,
-        "diffResources":  0.15
+        "diffResources":  0.15,
+        "diffBuildingsScaled":  0.48,
+        "diffResourcesScaled":  -0.16
     },
     {
         "csvName":  "Alternate: Turbo Blend Fuel",
@@ -3036,7 +3210,9 @@
         "diffPower":  -0.53,
         "diffItems":  -0.02,
         "diffBuildings":  -1.13,
-        "diffResources":  0.6
+        "diffResources":  0.6,
+        "diffBuildingsScaled":  -0.88,
+        "diffResourcesScaled":  1.46
     },
     {
         "csvName":  "Alternate: Electrode Circuit Board",
@@ -3069,7 +3245,9 @@
         "diffPower":  -0.2,
         "diffItems":  -0.24,
         "diffBuildings":  0.23,
-        "diffResources":  -1.05
+        "diffResources":  -1.05,
+        "diffBuildingsScaled":  -0.2,
+        "diffResourcesScaled":  1.15
     },
     {
         "csvName":  "Alternate: Pure Caterium Ingot",
@@ -3102,7 +3280,9 @@
         "diffPower":  0.68,
         "diffItems":  0.32,
         "diffBuildings":  0.47,
-        "diffResources":  0.68
+        "diffResources":  0.68,
+        "diffBuildingsScaled":  1.28,
+        "diffResourcesScaled":  -0.59
     },
     {
         "csvName":  "Alternate: Encased Industrial Pipe",
@@ -3135,7 +3315,9 @@
         "diffPower":  0.43,
         "diffItems":  0.6,
         "diffBuildings":  1.83,
-        "diffResources":  0.24
+        "diffResources":  0.24,
+        "diffBuildingsScaled":  1.25,
+        "diffResourcesScaled":  -0.6
     },
     {
         "csvName":  "Alternate: Recycled Rubber",
@@ -3168,7 +3350,9 @@
         "diffPower":  0.96,
         "diffItems":  2.06,
         "diffBuildings":  2.81,
-        "diffResources":  1.41
+        "diffResources":  1.41,
+        "diffBuildingsScaled":  2.23,
+        "diffResourcesScaled":  0.2
     },
     {
         "csvName":  "Alternate: Compacted Steel Ingot",
@@ -3201,7 +3385,9 @@
         "diffPower":  0.15,
         "diffItems":  1.58,
         "diffBuildings":  0.48,
-        "diffResources":  -0.85
+        "diffResources":  -0.85,
+        "diffBuildingsScaled":  0.75,
+        "diffResourcesScaled":  -0.31
     },
     {
         "csvName":  "Alternate: Quartz Purification",
@@ -3239,7 +3425,9 @@
         "diffPower":  0.73,
         "diffItems":  1.13,
         "diffBuildings":  -2.74,
-        "diffResources":  1.04
+        "diffResources":  1.04,
+        "diffBuildingsScaled":  1.38,
+        "diffResourcesScaled":  -0.33
     },
     {
         "csvName":  "Alternate: Plutonium Fuel Unit",
@@ -3272,7 +3460,9 @@
         "diffPower":  0.19,
         "diffItems":  0.95,
         "diffBuildings":  0.74,
-        "diffResources":  0.91
+        "diffResources":  0.91,
+        "diffBuildingsScaled":  0.33,
+        "diffResourcesScaled":  0.96
     },
     {
         "csvName":  "Alternate: Pink Diamonds",
@@ -3305,7 +3495,9 @@
         "diffPower":  0.27,
         "diffItems":  -0.88,
         "diffBuildings":  2.31,
-        "diffResources":  -4.14
+        "diffResources":  -4.14,
+        "diffBuildingsScaled":  2.8,
+        "diffResourcesScaled":  0.53
     },
     {
         "csvName":  "Alternate: Instant Plutonium Cell",
@@ -3338,7 +3530,9 @@
         "diffPower":  1.04,
         "diffItems":  0.62,
         "diffBuildings":  0.53,
-        "diffResources":  0.56
+        "diffResources":  0.56,
+        "diffBuildingsScaled":  0.82,
+        "diffResourcesScaled":  1.06
     },
     {
         "csvName":  "Alternate: Iron Pipe",
@@ -3366,7 +3560,9 @@
         "diffPower":  0.24,
         "diffItems":  1.46,
         "diffBuildings":  0.6,
-        "diffResources":  2.02
+        "diffResources":  2.02,
+        "diffBuildingsScaled":  1.23,
+        "diffResourcesScaled":  0.18
     },
     {
         "csvName":  "Alternate: Instant Scrap",
@@ -3414,7 +3610,9 @@
         "diffPower":  1.48,
         "diffItems":  -2.71,
         "diffBuildings":  1.04,
-        "diffResources":  -0.73
+        "diffResources":  -0.73,
+        "diffBuildingsScaled":  5.16,
+        "diffResourcesScaled":  2.45
     },
     {
         "csvName":  "Alternate: Pure Copper Ingot",
@@ -3447,7 +3645,9 @@
         "diffPower":  12.56,
         "diffItems":  -4.06,
         "diffBuildings":  -4.44,
-        "diffResources":  -11.41
+        "diffResources":  -11.41,
+        "diffBuildingsScaled":  23.19,
+        "diffResourcesScaled":  -11.53
     },
     {
         "csvName":  "Alternate: Fertile Uranium",
@@ -3495,7 +3695,9 @@
         "diffPower":  2.76,
         "diffItems":  2.25,
         "diffBuildings":  2.19,
-        "diffResources":  2.45
+        "diffResources":  2.45,
+        "diffBuildingsScaled":  2.13,
+        "diffResourcesScaled":  3.23
     },
     {
         "csvName":  "Alternate: Radio Connection Unit",
@@ -3533,7 +3735,9 @@
         "diffPower":  0.62,
         "diffItems":  2.71,
         "diffBuildings":  3.92,
-        "diffResources":  2.19
+        "diffResources":  2.19,
+        "diffBuildingsScaled":  1.98,
+        "diffResourcesScaled":  4.49
     },
     {
         "csvName":  "Alternate: Cloudy Diamonds",
@@ -3566,7 +3770,9 @@
         "diffPower":  4.19,
         "diffItems":  5.4,
         "diffBuildings":  1.43,
-        "diffResources":  11.85
+        "diffResources":  11.85,
+        "diffBuildingsScaled":  2.18,
+        "diffResourcesScaled":  3.98
     },
     {
         "csvName":  "Alternate: Dark-Ion Fuel",
@@ -3604,7 +3810,9 @@
         "diffPower":  -0.23,
         "diffItems":  4.33,
         "diffBuildings":  2.59,
-        "diffResources":  3.75
+        "diffResources":  3.75,
+        "diffBuildingsScaled":  0.87,
+        "diffResourcesScaled":  7.14
     },
     {
         "csvName":  "Alternate: Dark Matter Crystallization",
@@ -3632,7 +3840,9 @@
         "diffPower":  4.62,
         "diffItems":  3,
         "diffBuildings":  3.19,
-        "diffResources":  3.38
+        "diffResources":  3.38,
+        "diffBuildingsScaled":  1.66,
+        "diffResourcesScaled":  8.54
     },
     {
         "csvName":  "Alternate: Petroleum Diamonds",
@@ -3660,7 +3870,9 @@
         "diffPower":  3.73,
         "diffItems":  6.85,
         "diffBuildings":  11.75,
-        "diffResources":  -9.73
+        "diffResources":  -9.73,
+        "diffBuildingsScaled":  8.28,
+        "diffResourcesScaled":  -0.72
     },
     {
         "csvName":  "Alternate: Leached Copper Ingot",
@@ -3693,7 +3905,9 @@
         "diffPower":  5.2,
         "diffItems":  2.18,
         "diffBuildings":  -18.87,
-        "diffResources":  -4.65
+        "diffResources":  -4.65,
+        "diffBuildingsScaled":  4.66,
+        "diffResourcesScaled":  8.3
     },
     {
         "csvName":  "Alternate: Tempered Copper Ingot",
@@ -3726,6 +3940,8 @@
         "diffPower":  7.99,
         "diffItems":  9.95,
         "diffBuildings":  -3.63,
-        "diffResources":  -16.7
+        "diffResources":  -16.7,
+        "diffBuildingsScaled":  19.14,
+        "diffResourcesScaled":  -2.63
     }
 ]

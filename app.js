@@ -222,6 +222,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (eff === 'items') return recipe.diffItems < 0;
                 if (eff === 'buildings') return recipe.diffBuildings < 0;
                 if (eff === 'resources') return recipe.diffResources < 0;
+                if (eff === 'buildingsScaled') return recipe.diffBuildingsScaled < 0;
+                if (eff === 'resourcesScaled') return recipe.diffResourcesScaled < 0;
                 return true;
             });
 
@@ -297,6 +299,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (recipe.diffItems < 0) effBadges.push('<span class="eff-badge items">Items Saving</span>');
             if (recipe.diffBuildings < 0) effBadges.push('<span class="eff-badge buildings">Buildings Saving</span>');
             if (recipe.diffResources < 0) effBadges.push('<span class="eff-badge resources">Resources Saving</span>');
+            if (recipe.diffBuildingsScaled < 0) effBadges.push('<span class="eff-badge buildings-scaled">Buildings* (Scaled) Saving</span>');
+            if (recipe.diffResourcesScaled < 0) effBadges.push('<span class="eff-badge resources-scaled">Resources* (Scaled) Saving</span>');
             const efficiencyHTML = effBadges.length > 0 
                 ? `<div class="efficiency-badges">${effBadges.join('')}</div>`
                 : '';
