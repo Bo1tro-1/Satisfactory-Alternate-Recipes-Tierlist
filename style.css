@@ -682,9 +682,9 @@ footer a:hover {
 
 .clear-all-btn {
     width: 100%;
-    background-color: rgba(231, 76, 60, 0.1);
-    border: 1px solid rgba(231, 76, 60, 0.3);
-    color: #e74c3c;
+    background-color: rgba(242, 141, 53, 0.08);
+    border: 1px solid rgba(242, 141, 53, 0.3);
+    color: var(--accent-orange);
     padding: 0.6rem;
     border-radius: 6px;
     cursor: pointer;
@@ -699,10 +699,10 @@ footer a:hover {
 }
 
 .clear-all-btn:hover {
-    background-color: rgba(231, 76, 60, 0.2);
-    border-color: #e74c3c;
-    color: #ff7675;
-    box-shadow: 0 0 10px rgba(231, 76, 60, 0.15);
+    background-color: rgba(242, 141, 53, 0.18);
+    border-color: var(--accent-orange);
+    color: var(--accent-orange-hover);
+    box-shadow: 0 0 10px rgba(242, 141, 53, 0.15);
 }
 
 .clear-all-btn svg {
