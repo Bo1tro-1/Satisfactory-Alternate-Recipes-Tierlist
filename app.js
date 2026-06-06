@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let recipesData = [];
     let activeFilters = {
         search: '',
-        tier: 'all',
-        building: 'all',
-        grade: 'all',
+        tier: [],      // Array to support multiple tiers
+        building: [],  // Array to support multiple buildings
+        grade: [],     // Array to support multiple grades
         sortBy: 'score' // 'score', 'name', 'tier'
     };
 
@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return 'tier-f';
     }
 
+    // Helper to get grade letter
     function getScoreGrade(score) {
         if (score >= 85) return 'S';
         if (score >= 70) return 'A';
@@ -120,17 +121,46 @@ document.addEventListener('DOMContentLoaded', () => {
         const filterType = btn.dataset.filterType;
         const filterVal = btn.dataset.filterVal;
 
-        // Toggle active class on siblings
         let container;
         if (filterType === 'tier') container = tierFiltersContainer;
         else if (filterType === 'building') container = buildingFiltersContainer;
         else if (filterType === 'grade') container = document.getElementById('grade-filters');
-        
-        container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
 
-        // Update state
-        activeFilters[filterType] = filterVal;
+        if (filterVal === 'all') {
+            // "All" clicked: Clear this category's filter array
+            activeFilters[filterType] = [];
+            // Reset active classes in the container: set "All" active, remove others
+            container.querySelectorAll('.filter-btn').forEach(b => {
+                if (b.dataset.filterVal === 'all') {
+                    b.classList.add('active');
+                } else {
+                    b.classList.remove('active');
+                }
+            });
+        } else {
+            // Individual filter clicked
+            const index = activeFilters[filterType].indexOf(filterVal);
+            if (index > -1) {
+                // Already selected, so deselect it
+                activeFilters[filterType].splice(index, 1);
+                btn.classList.remove('active');
+            } else {
+                // Not selected, so add it
+                activeFilters[filterType].push(filterVal);
+                btn.classList.add('active');
+            }
+
+            // Manage "All" button class states
+            const allBtn = container.querySelector('[data-filter-val="all"]');
+            if (activeFilters[filterType].length === 0) {
+                // If no filters left selected, "All" should be active
+                if (allBtn) allBtn.classList.add('active');
+            } else {
+                // Otherwise, deactivate "All"
+                if (allBtn) allBtn.classList.remove('active');
+            }
+        }
+
         renderRecipes();
     }
 
@@ -170,13 +200,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 recipe.products.some(p => p.name.toLowerCase().includes(activeFilters.search));
 
             // Tier match
-            const matchesTier = activeFilters.tier === 'all' || recipe.tier === activeFilters.tier;
+            const matchesTier = activeFilters.tier.length === 0 || activeFilters.tier.includes(recipe.tier);
 
             // Building match
-            const matchesBuilding = activeFilters.building === 'all' || recipe.building === activeFilters.building;
+            const matchesBuilding = activeFilters.building.length === 0 || activeFilters.building.includes(recipe.building);
 
             // Grade match
-            const matchesGrade = activeFilters.grade === 'all' || getScoreGrade(recipe.score) === activeFilters.grade;
+            const matchesGrade = activeFilters.grade.length === 0 || activeFilters.grade.includes(getScoreGrade(recipe.score));
 
             return matchesSearch && matchesTier && matchesBuilding && matchesGrade;
         });
